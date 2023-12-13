@@ -57,3 +57,28 @@
 .marketingPage .videoArea li > div::before{background-image: url(../images/marketing-video.png);}
 .marketingPage .videoArea li > div::before{aspect-ratio: 568 / 480;}
 .marketingPage .videoArea li > div::before{aspect-ratio: 568 / 400;}
+
+
+/* 문의 */
+.inquiryPage{padding-block: 200px 160px;}
+.inquiryPage fieldset{font-size: 15px; line-height: 18px; margin-top: 80px;}
+.inquiryPage fieldset ul{display: flex; flex-wrap: wrap; gap: 60px 80px;}
+.inquiryPage fieldset ul li:not(.full){width: calc((100% - 80px) / 2);}
+.inquiryPage fieldset ul li.full{width: 100%;}
+.inquiryPage fieldset ul li > label{margin-bottom: 10px; font-weight: 700; color: var(--color-font01); display: flex; align-items: center;}
+.inquiryPage fieldset ul li:is(:has(:required), .required) > label{position: relative;}
+.inquiryPage fieldset ul li:is(:has(:required), .required) > label::after{transform: translateY(2px); content: '*'; color: var(--color-red);}
+.inquiryPage fieldset ul li div{font-weight: 400;}
+.inquiryPage fieldset ul li div :is(input:not([type="checkbox"]), textarea){width: 100%; padding-inline: 15px; border-radius: 6px; border: 1px solid #DEDEDE; box-sizing: border-box;}
+.inquiryPage fieldset ul li div input:not([type="checkbox"]){max-width: 500px; height: 54px;}
+.inquiryPage fieldset ul li div textarea{padding-block: 15px; height: 120px;}
+.inquiryPage fieldset ul li div ::placeholder{color: var(--color-font04);}
+.inquiryPage fieldset ul li div:has(input[type="checkbox"]){display: flex; align-items: center;}
+.inquiryPage fieldset ul li div input[type="checkbox"] + label{font-size: 15px; font-weight: 400; color: var(--color-font01);}
+.inquiryPage fieldset ul li div input[type="checkbox"] + label:not(:last-of-type){margin-right: 40px;}
+.inquiryPage fieldset ul li div input[type="checkbox"] ~ input:not([type="checkbox"]){margin-left: auto;}
+.inquiryPage fieldset ul li div[data-unit]{position: relative;}
+.inquiryPage fieldset ul li div[data-unit]::after{content: attr(data-unit); position: absolute; right: 15px; top: 50%; transform: translateY(-50%);}
+.inquiryPage fieldset ul li div[data-unit] input{padding-right: 45px;}
+.inquiryPage fieldset > label{margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--color-font01);}
+.inquiryPage fieldset input[type="submit"]{display: block; margin-top: 60px; margin-inline: auto;}
