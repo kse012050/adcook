@@ -26,6 +26,10 @@ span.underLine{position: relative;}
 span.underLine::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 20px; background-color: var(--color-yellow01); z-index: -1;}
 
 
+.kakao{font-size: 18px; right: 30px; bottom: 30px; padding: 5px 28px 5px 10px; border-radius: 30px; font-weight: 700; color: var(--color-font01); background-color: #FFEB00; position: fixed; display: flex; align-items: center; box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);}
+.kakao svg{width: 50px; aspect-ratio: 1; margin-right: 5px;}
+
+
 /* 해더 */
 header{position: fixed; left: 0; top: 0; width: 100%; z-index: 100;}
 header.active{background-color: rgba(255, 255, 255, 0.8);}
@@ -37,3 +41,14 @@ header > div nav{margin-left: auto;}
 header > div nav ul{display: flex; align-items: center; gap: 60px;}
 header > div button{margin-left: 60px; display: flex; align-items: center;}
 header > div button svg{width: 24px; margin-right: 7px; aspect-ratio: 1;}
+
+
+/* 푸터 */
+footer{padding-block: 60px 100px; text-align: center; background-color: black;}
+footer strong{font-size: 18px; line-height: 21px; margin-bottom: 30px; font-weight: 700; color: white; display: block;}
+footer address{max-width: 630px; row-gap: 10px; display: flex; justify-content: center; flex-wrap: wrap; margin-inline: auto;}
+footer address dl{font-size: 15px; line-height: 18px; font-weight: 400; color: white; display: flex; align-items: center;}
+footer address dl:is(:nth-child(1), :nth-child(3), :nth-child(4), :nth-child(6)){padding-right: 10px; margin-right: 10px; position: relative;}
+footer address dl:is(:nth-child(1), :nth-child(3), :nth-child(4), :nth-child(6)):after{content: ''; position: absolute; right: 0; top: 50%; transform: translate(0%, -50%); width: 1px; height: 14px; background-color: rgba(255, 255, 255, 0.3);}
+footer address dl dt::after{content: ':'; padding-inline: 0.4em;}
+footer p{font-size: 13px; line-height: 16px; margin-top: 40px; font-weight: 400; color: var(--color-font03);}
