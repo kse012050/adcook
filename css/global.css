@@ -9,8 +9,8 @@ svg{fill: none;}
 
 
 /* 컨텐츠 사이즈 */
-.contentSize{max-width: 1080px; margin-inline: auto;}
-
+.contentSize{max-width: var(--contentSize); margin-inline: auto;}
+.contentSize-padding{padding-inline: calc((100vw - var(--contentSize)) / 2);}
 
 /* 서브 타이틀 */
 [class*="subTitle"]{font-weight: 700;}
@@ -32,7 +32,7 @@ header.active{background-color: rgba(255, 255, 255, 0.8);}
 header > div{max-width: 1920px; padding-inline: 40px; margin-inline: auto; box-sizing: border-box; display: flex; align-items: center;}
 header > div h1{width: 177px;}
 header > div h1 a img{width: 100%;}
-header > div > *:not(h1){font-size: 20px; line-height: 120px; font-weight: 700;}
+header > div > *:not(h1){font-size: 20px; line-height: var(--headerHeight); font-weight: 700;}
 header > div nav{margin-left: auto;}
 header > div nav ul{display: flex; align-items: center; gap: 60px;}
 header > div button{margin-left: 60px; display: flex; align-items: center;}
