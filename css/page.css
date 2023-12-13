@@ -26,7 +26,6 @@
 
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
-.marketingPage{height: 3000px;}
 .marketingPage h2{padding-block: 200px 40px; background-color: var(--color-yellow02);}
 .marketingPage .subMenu{gap: 40px; display: flex; position: sticky; top: var(--headerHeight); background-color: var(--color-yellow02);}
 .marketingPage .subMenu a{font-size: 20px; line-height: 60px; font-weight: 700;}
@@ -41,6 +40,7 @@
 .marketingPage ul li > div div strong{font-size: 20px; line-height: 24px; margin-bottom: 10px; font-weight: 700; color: var(--color-font01); display: block;}
 .marketingPage ul li > div div strong:not(:first-of-type){margin-top: 60px;}
 .marketingPage ul li > div div p{font-size: 18px; line-height: 21px; font-weight: 400; color: var(--color-font02);}
+.marketingPage ul li > div div mark{font-size: 16px; line-height: 19px; margin-top: 10px; font-weight: 700; display: block;}
 
 /* 마케팅 페이지 - 네이버 */
 .marketingPage .naverArea li > div::before{aspect-ratio: 568 / 600; background-image: url(../images/marketing-naver.png);}
@@ -49,3 +49,11 @@
 /* 마케팅 페이지 - 인스타그램 */
 .marketingPage .instagramArea li > div::before{aspect-ratio: 568 / 600; background-image: url(../images/marketing-instagram.png);}
 .marketingPage .instagramArea li:nth-child(4) > div::before{aspect-ratio: 568 / 516;}
+
+/* 마케팅 페이지 - 체험단 */
+.marketingPage .experienceArea li > div::before{aspect-ratio: 568 / 480; background-image: url(../images/marketing-experience.png);}
+
+/* 마케팅 페이지 - 체험단 */
+.marketingPage .videoArea li > div::before{background-image: url(../images/marketing-video.png);}
+.marketingPage .videoArea li > div::before{aspect-ratio: 568 / 480;}
+.marketingPage .videoArea li > div::before{aspect-ratio: 568 / 400;}
