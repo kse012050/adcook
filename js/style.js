@@ -1,4 +1,10 @@
 $(document).ready(function(){
+    // 나중에 삭제
+    $('[type="submit"]').click(function(){
+        // window.location.href = './inquiry-complete.html'
+        
+        window.location.assign("./inquiry-complete.html");
+    })
 
     // 공통 스타일
     commonStyle();
