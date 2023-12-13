@@ -1,0 +1,25 @@
+/* 메인 페이지 */
+/* 메인 페이지 - 메인 슬라이더 */
+.mainPage .mainSlide{height: 740px; background: url(../images/main-mainSlideBG.png) center;}
+.mainPage .mainSlide .swiper-wrapper [class*="slide"]{display: flex; flex-direction: column; justify-content: center; align-items: center; font-weight: 700; text-align: center;}
+.mainPage .mainSlide .swiper-wrapper [class*="slide"] mark{font-size: 40px; line-height: 48px; margin-bottom: 30px;}
+.mainPage .mainSlide .swiper-wrapper [class*="slide"] p{font-size: 80px; line-height: 95px;}
+.mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg{height: 120px; transform: translateY(-10px); vertical-align: middle;}
+.mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg.big{width: 120px;}
+.mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg.small{width: 100px;}
+.mainPage .mainSlide .swiper-pagination{bottom: 60px;}
+.mainPage .mainSlide .swiper-pagination .swiper-pagination-bullet{width: 14px; height: 14px; margin: 0 10px;}
+.mainPage .mainSlide .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color: black;}
+
+/* 메인 페이지 - 애드쿡의 현장 마케팅 */
+/* .mainPage .siteArea{padding-block: 160px;} */
+.mainPage .siteArea h2{margin-bottom: 120px; text-align: center;}
+.mainPage .siteArea ul li{display: flex; justify-content: space-between; align-items: center;}
+.mainPage .siteArea ul li::before, 
+.mainPage .siteArea ul li::after{width: 50%; aspect-ratio: 540 / 380; background: url(../images/main-site.png) no-repeat center top calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) / 100%;}
+.mainPage .siteArea ul li:nth-child(2n)::before{content: '';}
+.mainPage .siteArea ul li:nth-child(2n + 1)::after{content: '';}
+.mainPage .siteArea ul li:not(:last-child){margin-bottom: 120px;}
+.mainPage .siteArea ul li div{width: 42.5925%;}
+.mainPage .siteArea ul li div strong{margin-bottom: 30px; display: block;}
+.mainPage .siteArea ul li div p{font-size: 22px; line-height: 30px; font-weight: 400; color: var(--color-font03);}
