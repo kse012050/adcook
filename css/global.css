@@ -10,7 +10,7 @@ svg{fill: none;}
 
 /* 컨텐츠 사이즈 */
 .contentSize{max-width: var(--contentSize); margin-inline: auto;}
-.contentSize-padding{padding-inline: calc((100vw - var(--contentSize)) / 2);}
+.contentSize-padding{padding-inline: calc((100vw - var(--contentSize) - var(--scrollWidth)) / 2); box-sizing: border-box;}
 
 /* 서브 타이틀 */
 [class*="subTitle"]{font-weight: 700;}
