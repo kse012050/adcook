@@ -20,10 +20,18 @@ svg{fill: none;}
 
 /* 컨텐츠 위 / 아래 공통 */
 [class*="Area"]{padding-block: 160px;}
+[class*="Full"]{height: var(--fullHeight);}
 
 
-span.underLine{position: relative;}
-span.underLine::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 20px; background-color: var(--color-yellow01); z-index: -1;}
+/* 상하좌우 가운데 컨텐츠 */
+.content-center{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+
+/* 텍스트 언더라인 */
+span[class*="underLine"]{position: relative; z-index: 1;}
+span[class*="underLine"]::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 20px; z-index: -1;}
+span.underLine-yellow::after{background-color: var(--color-yellow01);}
+span.underLine-red::after{background-color: var(--color-red);}
 
 
 /* 체크박스 */

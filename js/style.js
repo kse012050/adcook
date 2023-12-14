@@ -38,6 +38,13 @@ function styleIdx(){
             $(this).css('--styleIdx', i)
         })
     })
+
+    $(window).scroll(function(){
+        $('[data-scrollPosition]').each(function(){
+            $(this)[0].getBoundingClientRect().y < 0 ? $(this).addClass('active') : $(this).removeClass('active');
+        })
+
+    })
 }
 
 // 메인 페이지
