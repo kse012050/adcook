@@ -76,6 +76,72 @@
 .serviceScroll ul li.active:has( + .active) > div::after{transform: translateY(-100%);}
 
 
+/* 회사소개 페이지 */
+/* 회사소개 페이지 - 상단 */
+.aboutUsPage .adcookFull{position: sticky; top: 0; z-index: -3;}
+.aboutUsPage .adcookFull > p{font-size: 44px; line-height: 53px; font-weight: 200; margin-top: 90px;}
+.aboutUsPage .adcookFull > p b{font-weight: 700;}
+.aboutUsPage .adcookFull h2{font-size: 80px; line-height: 95px; font-weight: 700;}
+.aboutUsPage .adcookFull ul{margin-top: 80px; height: 464px; width: 100%; position: relative;}
+.aboutUsPage .adcookFull ul li{position: absolute;}
+.aboutUsPage .adcookFull ul li:nth-child(1){left: 40px; top: 47px;}
+.aboutUsPage .adcookFull ul li:nth-child(2){right: 40px; bottom: 50px;}
+.aboutUsPage .adcookFull ul li p{border-radius: 20px; font-weight: 200;}
+.aboutUsPage .adcookFull ul li:nth-child(1) p{font-size: 30px; line-height: 36px; color: var(--color-font01); padding: 50px 80px 50px 50px; background-color: white; box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);}
+.aboutUsPage .adcookFull ul li:nth-child(2) p{font-size: 40px; line-height: 48px; color: white; padding: 50px 60px; background-color: var(--color-red);}
+.aboutUsPage .adcookFull ul li p b{font-weight: 700;}
+.aboutUsPage .adcookFull ul li mark{position: absolute; top: 0%; transform: translateY(calc(-100% - 10px)); font-family: 'Nanum Pen Script';}
+.aboutUsPage .adcookFull ul li:nth-child(1) mark{left: 20px; font-size: 32px; line-height: 37px; color: var(--color-red);}
+.aboutUsPage .adcookFull ul li:nth-child(2) mark{left: 90px; font-size: 36px; line-height: 41px;}
+.aboutUsPage .adcookFull ul li:nth-child(2) mark span{position: relative;}
+.aboutUsPage .adcookFull ul li:nth-child(2) mark span::before{content: ''; width: 6px; aspect-ratio: 1; position: absolute; left: 50%; top: 0; transform: translate(-50% , -100%); background-color: var(--color-red); border-radius: 100%;}
+.aboutUsPage .adcookFull ul li svg:first-of-type{position: absolute; width: 122px; right: 40px; top: 0; aspect-ratio: 1; transform: translateY(-50%); }
+.aboutUsPage .adcookFull ul li svg:nth-of-type(2){position: absolute; width: 46px; aspect-ratio: 46 / 50; left: 50%; bottom: -30px; transform: translateX(-50%);}
+
+/* 회사소개 페이지  - 테스트 */
+.aboutUsPage .textScroll{height: 300vh; background-color: black; position: sticky; top: calc(-300vh + var(--fullHeight)); z-index: -2; transition: background-color 0.5s cubic-bezier(0.25, 0.47, 0.12, 0.99);}
+.aboutUsPage .textScroll:has( > div > *:nth-child(2).active + :not(.active)){background-color: #F66C4B;}
+.aboutUsPage .textScroll > div{position: sticky; top: 0; left: 0; width: 100%;}
+.aboutUsPage .textScroll > div > *{opacity: 0; pointer-events: none; position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+.aboutUsPage .textScroll > div > *:nth-child(1){color: var(--color-font03);}
+.aboutUsPage .textScroll > div > *:nth-child(2){color: #FFB7A6;}
+.aboutUsPage .textScroll > div > *:nth-child(3){color: var(--color-font03);}
+.aboutUsPage .textScroll > div p{font-size: 40px; line-height: 60px; font-weight: 700; text-align: center;}
+.aboutUsPage .textScroll > div > div{height: 100%; display: flex; flex-direction: column; justify-content: center;}
+.aboutUsPage .textScroll > div > div::after{content: ''; max-width: 1920px; margin-inline: auto; width: 100%; aspect-ratio: 1920 / 400; background: url(../images/aboutUs-text.png) no-repeat center / 100%;}
+.aboutUsPage .textScroll > div > div p{flex: 1;}
+.aboutUsPage .textScroll > div > *{transition: opacity 1s cubic-bezier(0.25, 0.47, 0.12, 0.99);}
+.aboutUsPage .textScroll > div > *.active{opacity: 1; pointer-events: all;}
+.aboutUsPage .textScroll > div > *.active:has(+ .active){opacity: 0; pointer-events: none;}
+.aboutUsPage .textScroll > div > *.active b{color: white;  transition: color 1s 0.3s cubic-bezier(0.25, 0.47, 0.12, 0.99);}
+
+/* 회사소개 페이지  - 브랜드별 분석 */
+.aboutUsPage .analyzeFull{display: flex; justify-content: space-between; align-items: center; background-color: var(--color-yellow02); position: sticky; top: 0; z-index: -1;}
+.aboutUsPage .analyzeFull li{text-align: center;}
+.aboutUsPage .analyzeFull li::before{content: ''; width: 320px; margin-bottom: 60px; aspect-ratio: 1; background: url(../images/aboutUs-analyze.png) no-repeat center top calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) / 100%; display: block;}
+.aboutUsPage .analyzeFull li strong{font-size: 34px; line-height: 41px; margin-bottom: 20px; font-weight: 700; color: var(--color-font01); display: block;}
+.aboutUsPage .analyzeFull li p{font-size: 24px; line-height: 29px; color: var(--color-font02);}
+
+/* 회사소개 페이지 - 비지니스 파트너스 */
+.aboutUsPage .businessArea{text-align: center; background-color: white;}
+.aboutUsPage .businessArea small{font-size: 22px; line-height: 26px; font-weight: 400; color: var(--color-font03); margin-bottom: 10px; display: block;}
+.aboutUsPage .businessArea ul{margin-top: 80px; gap: 20px; display: flex; flex-wrap: wrap;}
+.aboutUsPage .businessArea ul li{width: 18.519%; aspect-ratio: 200 / 80; background: url(../images/logo-business.png) no-repeat center top calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) / 100%;}
+
+/* 회사소개 페이지 - Location 오시는 길 */
+.aboutUsPage .locationFull{background-color: #081337; display: flex; align-items: center; position: relative;}
+.aboutUsPage .locationFull div{width: 50%; color: white;}
+.aboutUsPage .locationFull div > p{font-size: 22px; line-height: 26px; margin-top: 10px; font-weight: 400;}
+.aboutUsPage .locationFull div strong{font-size: 24px; line-height: 29px; margin-top: 200px; font-weight: 700; display: block;}
+.aboutUsPage .locationFull div ul{margin-top: 30px;}
+.aboutUsPage .locationFull div ul li{padding-left: 30px; position: relative;}
+.aboutUsPage .locationFull div ul li:not(:last-child){margin-bottom: 20px;}
+.aboutUsPage .locationFull div ul li::before{content: ''; width: 24px; aspect-ratio: 1; position: absolute; left: 0; top: 0; background: url(../images/icon-location.png) no-repeat center top calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) / 100%;}
+.aboutUsPage .locationFull div ul li > *:first-child{font-size: 20px; line-height: 24px; font-weight: 400;}
+.aboutUsPage .locationFull div ul li small{font-size: 18px; line-height: 21px; margin-top: 5px; opacity: 0.5; display: block;}
+.aboutUsPage .locationFull iframe{position: absolute; right: 0; top: 0; width: 50%; height: 100%;}
+
+
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
 .marketingPage h2{padding-block: 200px 40px; background-color: var(--color-yellow02);}

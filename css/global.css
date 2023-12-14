@@ -20,7 +20,7 @@ svg{fill: none;}
 
 /* 컨텐츠 위 / 아래 공통 */
 [class*="Area"]{padding-block: 160px;}
-[class*="Full"]{height: var(--fullHeight);}
+[class*="Full"]{height: var(--fullHeight); padding-top: var(--headerHeight); box-sizing: border-box;}
 
 
 /* 상하좌우 가운데 컨텐츠 */

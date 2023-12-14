@@ -13,7 +13,10 @@ $(document).ready(function(){
     $('[data-styleIdx]').length && styleIdx();
 
     // 메인 페이지
-    mainPage();
+    $('.mainPage').length && mainPage();
+
+    // 회사소개 페이지
+    $('.aboutUsPage').length && aboutUs();
 })
 
 // 공통 스타일
@@ -81,8 +84,28 @@ function mainPage(){
                 }
             })
         }
+    })
+}
 
-        //     && $('.serviceTest ul').stop().css('top', test)
-            // $('.serviceTest div').css('top', Math.abs($('.serviceTest')[0].getBoundingClientRect().y))
+
+// 회사소개 페이지
+function aboutUs(){
+    $('.textScroll > div > *').each(function(i){
+        if(($('.textScroll').height() - $(window).height()) / $('.textScroll > div > *').length * i < $('.textScroll')[0].getBoundingClientRect().y * -1){
+            $(this).addClass('active')
+        }else{
+            $(this).removeClass('active')
+        }
+    })
+    $(window).scroll(function(){
+        if($('.textScroll')[0].getBoundingClientRect().y <= 0 && $(window).height() - $('.textScroll').height() < $('.textScroll')[0].getBoundingClientRect().y){
+            $('.textScroll > div > *').each(function(i){
+                if(($('.textScroll').height() - $(window).height()) / $('.textScroll > div > *').length * i < $('.textScroll')[0].getBoundingClientRect().y * -1){
+                    $(this).addClass('active')
+                }else{
+                    $(this).removeClass('active')
+                }
+            })
+        }
     })
 }
