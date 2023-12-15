@@ -48,15 +48,15 @@
 .serviceScroll:has( > div ol li:nth-child(2).active + :not(.active)){background-color: #081337;}
 .serviceScroll:has( > div ol li:nth-child(3).active + :not(.active)){background-color: var(--color-yellow02); --color: var(--color-font01);}
 .serviceScroll:has( > div ol li:nth-child(4).active){background-color: var(--color-red);}
-.serviceScroll > div{position: sticky; top: 0; height: var(--fullHeight); padding-top: calc(var(--headerHeight) + 120px); box-sizing: border-box; z-index: 1; pointer-events: none;}
+.serviceScroll > div{position: sticky; top: var(--headerHeight); height: var(--fullHeight); padding-top: 120px; box-sizing: border-box; z-index: 1; pointer-events: none;}
 .serviceScroll > div > *{pointer-events: all;}
 .serviceScroll > div ol{display: flex; gap: 20px;}
 .serviceScroll > div ol li{width: 14px; aspect-ratio: 1; opacity: 0.2; background-color: var(--color); border-radius: 100%; text-indent: -9999px;}
 .serviceScroll > div ol li.active{opacity: 1;}
 .serviceScroll > div ol li.active:has( + .active){opacity: 0.2;}
 .serviceScroll > div h2{font-size: 30px; line-height: 36px; margin-top: 30px; font-weight: 700; color: var(--color);}
-.serviceScroll ul{position: sticky; top: var(--fullHeight); left: 0; width: 100%; box-sizing: border-box; transform: translateY(calc(var(--fullHeight) * -1));}
-.serviceScroll ul li{height: var(--fullHeight); display: flex; align-items: center;}
+.serviceScroll ul{position: sticky; top: calc(var(--fullHeight) + var(--headerHeight)); left: 0; width: 100%; box-sizing: border-box; transform: translateY(calc(var(--fullHeight) * -1));}
+.serviceScroll ul li{height: calc(var(--fullHeight) - var(--headerHeight)); display: flex; align-items: center;}
 .serviceScroll ul li{position: absolute; top: 0; left: 0; width: 100%; }
 .serviceScroll ul li > div{width: 100%; display: flex;}
 .serviceScroll ul li > div::after{content: ''; width: 57.408%; aspect-ratio: 1; background: url(../images/main-service.png) no-repeat center top calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) / 100%;}
