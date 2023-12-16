@@ -43,37 +43,47 @@
 .mainPage .successFull.active ul li:nth-child(5){left:  555px; top: 280px;}
 
 /* 메인 페이지 - 마케팅 서비스 안내 */
-.serviceScroll{height: 300vh; --color: white; color: var(--color); position: relative; transition: background-color 1s cubic-bezier(0.25, 0.47, 0.12, 0.99);}
-.serviceScroll:has( > div ol li:nth-child(1).active + :not(.active)){background-color: var(--color-green);}
-.serviceScroll:has( > div ol li:nth-child(2).active + :not(.active)){background-color: #081337;}
-.serviceScroll:has( > div ol li:nth-child(3).active + :not(.active)){background-color: var(--color-yellow02); --color: var(--color-font01);}
-.serviceScroll:has( > div ol li:nth-child(4).active){background-color: var(--color-red);}
-.serviceScroll > div{position: sticky; top: var(--headerHeight); height: var(--fullHeight); padding-top: 120px; box-sizing: border-box; z-index: 1; pointer-events: none;}
-.serviceScroll > div > *{pointer-events: all;}
-.serviceScroll > div ol{display: flex; gap: 20px;}
-.serviceScroll > div ol li{width: 14px; aspect-ratio: 1; opacity: 0.2; background-color: var(--color); border-radius: 100%; text-indent: -9999px;}
-.serviceScroll > div ol li.active{opacity: 1;}
-.serviceScroll > div ol li.active:has( + .active){opacity: 0.2;}
-.serviceScroll > div h2{font-size: 30px; line-height: 36px; margin-top: 30px; font-weight: 700; color: var(--color);}
-.serviceScroll ul{position: sticky; top: calc(var(--fullHeight) + var(--headerHeight)); left: 0; width: 100%; box-sizing: border-box; transform: translateY(calc(var(--fullHeight) * -1));}
-.serviceScroll ul li{height: calc(var(--fullHeight) - var(--headerHeight)); display: flex; align-items: center;}
-.serviceScroll ul li{position: absolute; top: 0; left: 0; width: 100%; }
-.serviceScroll ul li > div{width: 100%; display: flex;}
-.serviceScroll ul li > div::after{content: ''; width: 57.408%; aspect-ratio: 1; background: url(../images/main-service.png) no-repeat center top calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) / 100%;}
-.serviceScroll ul li > div div{width: 42.593%; padding-top: 240px;}
-.serviceScroll ul li > div div h3{margin-bottom: 30px;}
-.serviceScroll ul li > div div p{font-size: 24px; line-height: 32px; margin-bottom: 80px; font-weight: 400;}
-.serviceScroll ul li > div div a{font-size: 24px; line-height: 29px; text-decoration: underline;}
+.mainPage .serviceScroll{height: 300vh; --color: white; color: var(--color); position: relative; transition: background-color 1s cubic-bezier(0.25, 0.47, 0.12, 0.99);}
+.mainPage .serviceScroll:has( > div ol li:nth-child(1).active + :not(.active)){background-color: var(--color-green);}
+.mainPage .serviceScroll:has( > div ol li:nth-child(2).active + :not(.active)){background-color: #081337;}
+.mainPage .serviceScroll:has( > div ol li:nth-child(3).active + :not(.active)){background-color: var(--color-yellow02); --color: var(--color-font01);}
+.mainPage .serviceScroll:has( > div ol li:nth-child(4).active){background-color: var(--color-red);}
+.mainPage .serviceScroll > div{position: sticky; top: var(--headerHeight); height: var(--fullHeight); padding-top: 120px; box-sizing: border-box; z-index: 1; pointer-events: none;}
+.mainPage .serviceScroll > div > *{pointer-events: all;}
+.mainPage .serviceScroll > div ol{display: flex; gap: 20px;}
+.mainPage .serviceScroll > div ol li{width: 14px; aspect-ratio: 1; opacity: 0.2; background-color: var(--color); border-radius: 100%; text-indent: -9999px;}
+.mainPage .serviceScroll > div ol li.active{opacity: 1;}
+.mainPage .serviceScroll > div ol li.active:has( + .active){opacity: 0.2;}
+.mainPage .serviceScroll > div h2{font-size: 30px; line-height: 36px; margin-top: 30px; font-weight: 700; color: var(--color);}
+.mainPage .serviceScroll ul{position: sticky; top: calc(var(--fullHeight) + var(--headerHeight)); left: 0; width: 100%; box-sizing: border-box; transform: translateY(calc(var(--fullHeight) * -1));}
+.mainPage .serviceScroll ul li{height: calc(var(--fullHeight) - var(--headerHeight)); display: flex; align-items: center;}
+.mainPage .serviceScroll ul li{position: absolute; top: 0; left: 0; width: 100%; }
+.mainPage .serviceScroll ul li > div{width: 100%; display: flex;}
+.mainPage .serviceScroll ul li > div::after{content: ''; width: 57.408%; aspect-ratio: 1; background: url(../images/main-service.png) no-repeat center top calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) / 100%;}
+.mainPage .serviceScroll ul li > div div{width: 42.593%; padding-top: 240px;}
+.mainPage .serviceScroll ul li > div div h3{margin-bottom: 30px;}
+.mainPage .serviceScroll ul li > div div p{font-size: 24px; line-height: 32px; margin-bottom: 80px; font-weight: 400;}
+.mainPage .serviceScroll ul li > div div a{font-size: 24px; line-height: 29px; text-decoration: underline;}
 /* 메인 페이지 - 마케팅 서비스 안내 - 애니메이션 */
-.serviceScroll ul li{transition: opacity 1s cubic-bezier(0.25, 0.47, 0.12, 0.99);}
-.serviceScroll ul li > div::after{transition: transform 1s cubic-bezier(0.25, 0.47, 0.12, 0.99);}
-.serviceScroll ul li:not(:first-child){position: absolute; top: 0; opacity: 0; pointer-events: none;}
-.serviceScroll ul li:not(:first-child) > div::after{transform: translateY(100%);}
-.serviceScroll ul li:not(:first-child).active{opacity: 1;}
-.serviceScroll ul li:not(:first-child).active > div::after{transform: translateY(0%);}
-.serviceScroll ul li.active{pointer-events: all;}
-.serviceScroll ul li.active:has( + .active){opacity: 0; pointer-events: none;}
-.serviceScroll ul li.active:has( + .active) > div::after{transform: translateY(-100%);}
+.mainPage .serviceScroll ul li{transition: opacity 1s cubic-bezier(0.25, 0.47, 0.12, 0.99);}
+.mainPage .serviceScroll ul li > div::after{transition: transform 1s cubic-bezier(0.25, 0.47, 0.12, 0.99);}
+.mainPage .serviceScroll ul li:not(:first-child){position: absolute; top: 0; opacity: 0; pointer-events: none;}
+.mainPage .serviceScroll ul li:not(:first-child) > div::after{transform: translateY(100%);}
+.mainPage .serviceScroll ul li:not(:first-child).active{opacity: 1;}
+.mainPage .serviceScroll ul li:not(:first-child).active > div::after{transform: translateY(0%);}
+.mainPage .serviceScroll ul li.active{pointer-events: all;}
+.mainPage .serviceScroll ul li.active:has( + .active){opacity: 0; pointer-events: none;}
+.mainPage .serviceScroll ul li.active:has( + .active) > div::after{transform: translateY(-100%);}
+
+/* 메인 페이지 - 함계하는 브랜드 */
+.mainPage .brandArea{text-align: center; overflow: hidden;}
+.mainPage .brandArea ul{margin-top: 200px; gap: 30px; --width: 330px; display: flex; width: rem(17px / 2);}
+.mainPage .brandArea ul li{flex-shrink: 0; width: 330px; aspect-ratio: 330 / 130; border-radius: 70px; box-shadow: 10px 20px 40px 0px rgba(0, 0, 0, 0.10); background: url(../images/logo-business.png) no-repeat center top calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) / 100%;}
+.mainPage .brandArea ul li:first-child{position: relative; animation: brandAni 10s -1s linear;}
+@keyframes brandAni {
+    0%{left: 100%;}
+    100%{left: calc(var(--width) * -1);}
+}
 
 
 /* 회사소개 페이지 */
