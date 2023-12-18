@@ -46,6 +46,19 @@ function commonStyle(){
         }
         $('body').css('--scrollWidth', scrollWidth + 'px');
     })
+
+    // 모바일, 테블릿 메뉴
+    $('header > div button').click(function(){
+        $('header > div nav').toggleClass('active');
+    })
+
+    $('header > div nav').click(function(){
+        $(this).removeClass('active')
+    })
+
+    $('header > div nav ul').click(function(e){
+        e.stopPropagation();
+    })
 }
 
 // 스타일 인덱스

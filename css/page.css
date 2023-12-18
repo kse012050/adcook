@@ -1,12 +1,7 @@
 /* 메인 페이지 */
 /* 메인 페이지 - 메인 슬라이더 */
-.mainPage .mainSlide{height: 740px; background: url(../images/main-mainSlideBG.png) center;}
+.mainPage .mainSlide{background: url(../images/main-mainSlideBG.png) center;}
 .mainPage .mainSlide .swiper-wrapper [class*="slide"]{display: flex; flex-direction: column; justify-content: center; align-items: center; font-weight: 700; text-align: center;}
-.mainPage .mainSlide .swiper-wrapper [class*="slide"] mark{font-size: 40px; line-height: 48px; margin-bottom: 30px;}
-.mainPage .mainSlide .swiper-wrapper [class*="slide"] p{font-size: 80px; line-height: 95px;}
-.mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg{height: 120px; transform: translateY(-10px); vertical-align: middle;}
-.mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg.big{width: 120px;}
-.mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg.small{width: 100px;}
 .mainPage .mainSlide .swiper-pagination{bottom: 60px;}
 .mainPage .mainSlide .swiper-pagination .swiper-pagination-bullet{width: 14px; height: 14px; margin: 0 10px;}
 .mainPage .mainSlide .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color: black;}

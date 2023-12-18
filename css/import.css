@@ -5,4 +5,15 @@
 @import url('reset.css');
 @import url('root.css');
 @import url('global.css');
+@import url('global1024-1920.css') screen and (1024px < width);
+@import url('global360-768.css') screen and (360px < width) and (width <= 1024px);
+@import url('global768.css') screen and (768px < width) and (width <= 1024px);
+@import url('global360.css') screen and (360px < width) and (width <= 768px);
 @import url('page.css');
+@import url('page1024-1920.css') screen and (1024px < width);
+@import url('page768-1920.css') screen and (768px < width);
+@import url('page360-768.css') screen and (360px < width) and (width <= 1024px);
+@import url('page1920.css') screen and (1240px < width) and (width <= 1920px);
+@import url('page1024.css') screen and (1024px < width) and (width <= 1240px);
+@import url('page768.css') screen and (768px < width) and (width <= 1024px);
+@import url('page360.css') screen and (360px < width) and (width <= 768px);
