@@ -7,15 +7,29 @@
 .mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg.small{width: 92px;}
 
 /* 메인 페이지 - 애드쿡의 현장 마케팅 */
+.mainPage .siteArea h2{margin-bottom: 80px;}
+.mainPage .siteArea ul li:not(:last-child){margin-bottom: 100px;}
+.mainPage .siteArea ul li div{width: 46.875%;}
+.mainPage .siteArea ul li div p{font-size: 16px; line-height: 24px;}
 
 /* 메인 페이지 - 마케팅 성공 사례 */
+.mainPage .successFull strong{font-size: 24px; line-height: 29px;}
+.mainPage .successFull h2{margin-bottom: 40px;}
+.mainPage .successFull b{font-size: 20px; line-height: 24px;}
+.mainPage .successFull p{font-size: 16px; line-height: 19px;}
 
 /* 메인 페이지 - 마케팅 서비스 안내 */
-
+.mainPage .serviceScroll > div{padding-top: 80px;}
+.mainPage .serviceScroll > div ol li{width: 12px;}
+.mainPage .serviceScroll > div h2{font-size: 24px; line-height: 29px; margin-top: 22px;}
+.mainPage .serviceScroll ul li > div::after{width: 520px;}
+.mainPage .serviceScroll ul li > div div{padding-top: 187px;}
+.mainPage .serviceScroll ul li > div div p{font-size: 16px; line-height: 24px; margin-bottom: 100px;}
+.mainPage .serviceScroll ul li > div div a{font-size: 16px; line-height: 19px;}
 /* 메인 페이지 - 마케팅 서비스 안내 - 애니메이션 */
 
 /* 메인 페이지 - 함계하는 브랜드 */
-
+.mainPage .brandArea ul{margin-top: 160px;}
 
 
 /* 회사소개 페이지 */

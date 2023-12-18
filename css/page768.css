@@ -1,16 +1,24 @@
 /* 메인 페이지 */
 /* 메인 페이지 - 메인 슬라이더 */
 .mainPage .mainSlide{height: 500px;}
+.mainPage .mainSlide .swiper-pagination{bottom: 38px;}
 
 /* 메인 페이지 - 애드쿡의 현장 마케팅 */
+.mainPage .siteArea ul li:not(:last-child){margin-bottom: 40px;}
+.mainPage .siteArea ul li div{width: 45.834%;}
 
 /* 메인 페이지 - 마케팅 성공 사례 */
 
 /* 메인 페이지 - 마케팅 서비스 안내 */
+.mainPage .serviceScroll > div{padding-top: 60px;}
+.mainPage .serviceScroll ul li > div::after{width: 352px;}
+.mainPage .serviceScroll ul li > div div{padding-top: 109px;}
+.mainPage .serviceScroll ul li > div div p{margin-bottom: 60px;}
 
 /* 메인 페이지 - 마케팅 서비스 안내 - 애니메이션 */
 
 /* 메인 페이지 - 함계하는 브랜드 */
+.mainPage .brandArea ul{margin-top: 100px;}
 
 
 

@@ -12,3 +12,16 @@
     --contentSpacing: 32px;
     --headerHeight: 120px;
 }
+
+@media screen and (1024px <= width) {
+    :root{
+        --headerHeight: 120px;
+    }
+}
+
+@media screen and (width < 1024px) {
+    :root{
+        --headerHeight: 58px;
+    }
+    
+}

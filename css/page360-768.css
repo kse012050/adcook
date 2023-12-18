@@ -5,12 +5,23 @@
 .mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg{height: 70px; transform: translateY(-5px); vertical-align: middle;}
 .mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg.big{width: 70px;}
 .mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg.small{width: 60px;}
+.mainPage .mainSlide .swiper-pagination .swiper-pagination-bullet{width: 12px; height: 12px; margin-inline: 7.5px;}
 
 /* 메인 페이지 - 애드쿡의 현장 마케팅 */
+.mainPage .siteArea h2{margin-bottom: 40px;}
+.mainPage .siteArea ul li div p{font-size: 13px; line-height: 18px;}
 
 /* 메인 페이지 - 마케팅 성공 사례 */
+.mainPage .successFull strong{font-size: 20px; line-height: 24px;}
+.mainPage .successFull h2{max-width: 250px;}
+.mainPage .successFull b{font-size: 15px; line-height: 18px;}
+.mainPage .successFull p{max-width: 185px; font-size: 13px; line-height: 16px;}
 
 /* 메인 페이지 - 마케팅 서비스 안내 */
+.mainPage .serviceScroll > div ol li{width: 8px;}
+.mainPage .serviceScroll > div h2{font-size: 20px; line-height: 24px; margin-top: 15px;}
+.mainPage .serviceScroll ul li > div div p{font-size: 13px; line-height: 18px;}
+.mainPage .serviceScroll ul li > div div a{font-size: 13px; line-height: 16px;}
 
 /* 메인 페이지 - 마케팅 서비스 안내 - 애니메이션 */
 

@@ -3,6 +3,8 @@
 .mainPage .mainSlide{height: 740px;}
 .mainPage .mainSlide .swiper-wrapper [class*="slide"] mark{margin-bottom: 30px;}
 .mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg{transform: translateY(-10px);}
+.mainPage .mainSlide .swiper-pagination{bottom: 60px;}
+.mainPage .mainSlide .swiper-pagination .swiper-pagination-bullet{width: 14px; height: 14px; margin-inline: 10px;}
 
 /* 메인 페이지 - 애드쿡의 현장 마케팅 */
 
@@ -13,7 +15,6 @@
 /* 메인 페이지 - 마케팅 서비스 안내 - 애니메이션 */
 
 /* 메인 페이지 - 함계하는 브랜드 */
-
 
 
 /* 회사소개 페이지 */

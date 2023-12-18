@@ -12,14 +12,12 @@ svg{fill: none;}
 .contentSize{max-width: var(--contentSize); padding-inline: var(--contentSpacing); margin-inline: auto;}
 .contentSize-padding{padding-inline: max(calc((100vw - var(--contentSize) - var(--scrollWidth)) / 2), var(--contentSpacing)); box-sizing: border-box;}
 
+
 /* 서브 타이틀 */
 [class*="subTitle"]{font-weight: 700;}
-.subTitle01{font-size: 60px; line-height: 72px}
-.subTitle02{font-size: 50px; line-height: 60px;}
 
 
 /* 컨텐츠 위 / 아래 공통 */
-[class*="Area"]{padding-block: 160px;}
 [class*="Full"]{height: var(--fullHeight); padding-top: var(--headerHeight); box-sizing: border-box;}
 
 
@@ -45,7 +43,7 @@ input[type="checkbox"]:checked + label::before{--styleIdx: 1;}
 
 
 /* 카카오 버튼 */
-.kakao{font-size: 18px; right: 30px; bottom: 30px; padding: 5px 28px 5px 10px; border-radius: 30px; font-weight: 700; color: var(--color-font01); background-color: #FFEB00; position: fixed; display: flex; align-items: center; box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);}
+.kakao{font-size: 18px; right: 30px; bottom: 30px; padding: 5px 28px 5px 10px; border-radius: 30px; font-weight: 700; color: var(--color-font01); background-color: #FFEB00; position: fixed; display: flex; align-items: center; box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15); z-index: 10;}
 .kakao svg{width: 50px; aspect-ratio: 1; margin-right: 5px;}
 
 
