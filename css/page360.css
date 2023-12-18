@@ -41,6 +41,7 @@
 
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
+.marketingPage ul li > div::before{display: block; margin-bottom: 30px;}
 
 /* 마케팅 페이지 - 네이버 */
 

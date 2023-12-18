@@ -146,20 +146,18 @@
 
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
-.marketingPage h2{padding-top: 200px; background-color: var(--color-yellow02);}
+.marketingPage h2{background-color: var(--color-yellow02);}
 .marketingPage .subMenu{display: flex; position: sticky; top: var(--headerHeight); background-color: var(--color-yellow02);}
 .marketingPage .subMenu a{font-weight: 700;}
 .marketingPage .subMenu a:is(.active, :hover){position: relative;}
 .marketingPage .subMenu a:is(.active, :hover)::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 4px; background-color: var(--color-font01);}
-.marketingPage ul li:not(:last-child){margin-bottom: 120px;}
-.marketingPage ul li small{font-size: 22px; line-height: 26px; margin-top: 10px; font-weight: 400; color: var(--color-font03); display: block;}
-.marketingPage ul li > div{padding-top: 40px; margin-top: 40px; border-top: 1px solid var(--color-font01); display: flex; justify-content: space-between; align-items: center;}
-.marketingPage ul li > div::before{content: ''; width: 52.593%; background-repeat: no-repeat; background-position: left calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) top; background-size: calc(100% * var(--idxTotal));}
-.marketingPage ul li > div div{width: 41.852%;}
-.marketingPage ul li > div div strong{font-size: 20px; line-height: 24px; margin-bottom: 10px; font-weight: 700; color: var(--color-font01); display: block;}
+.marketingPage ul li small{margin-top: 10px; font-weight: 400; color: var(--color-font03); display: block;}
+.marketingPage ul li > div{border-top: 1px solid var(--color-font01);}
+.marketingPage ul li > div::before{content: ''; background-repeat: no-repeat; background-position: left calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) top; background-size: calc(100% * var(--idxTotal));}
+.marketingPage ul li > div div strong{font-weight: 700; color: var(--color-font01); display: block;}
 .marketingPage ul li > div div strong:not(:first-of-type){margin-top: 60px;}
-.marketingPage ul li > div div p{font-size: 18px; line-height: 21px; font-weight: 400; color: var(--color-font02);}
-.marketingPage ul li > div div mark{font-size: 16px; line-height: 19px; margin-top: 10px; font-weight: 700; display: block;}
+.marketingPage ul li > div div p{font-weight: 400; color: var(--color-font02);}
+.marketingPage ul li > div div mark{font-weight: 700; display: block;}
 
 /* 마케팅 페이지 - 네이버 */
 .marketingPage .naverArea li > div::before{aspect-ratio: 568 / 600; background-image: url(../images/marketing-naver.png);}

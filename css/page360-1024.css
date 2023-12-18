@@ -30,6 +30,8 @@
 
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
+.marketingPage .subMenu{gap: 30px;}
+.marketingPage ul li > div{margin-top: 30px;}
 
 /* 마케팅 페이지 - 네이버 */
 

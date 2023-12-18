@@ -52,6 +52,7 @@ br.mobile{display: none;}
 
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
+.marketingPage ul li > div{display: flex; justify-content: space-between; align-items: center;}
 
 /* 마케팅 페이지 - 네이버 */
 

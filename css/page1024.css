@@ -68,8 +68,14 @@
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
 .marketingPage h2{padding-bottom: 20px;}
-.marketingPage .subMenu{gap: 30px;}
 .marketingPage .subMenu a{font-size: 18px; line-height: 61px;}
+.marketingPage ul li small{font-size: 18px; line-height: 21px;}
+.marketingPage ul li > div{padding-top: 50px;}
+.marketingPage ul li > div div{width: 43.75%;}
+.marketingPage ul li > div div strong{font-size: 18px; line-height: 21px; margin-bottom: 15px;}
+.marketingPage ul li > div div strong:not(:first-of-type){margin-top: 50px;}
+.marketingPage ul li > div div p{font-size: 16px; line-height: 22px;}
+.marketingPage ul li > div div mark{font-size: 15px; line-height: 18px; margin-top: 8px;}
 
 /* 마케팅 페이지 - 네이버 */
 

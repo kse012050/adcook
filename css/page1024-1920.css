@@ -37,6 +37,8 @@ br.tablet{display: none;}
 
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
+.marketingPage h2{padding-top: 200px;}
+.marketingPage ul li:not(:last-child){margin-bottom: 120px;}
 
 /* 마케팅 페이지 - 네이버 */
 

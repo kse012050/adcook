@@ -30,6 +30,7 @@
 
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
+.marketingPage ul li > div::before{width: 50%;}
 
 /* 마케팅 페이지 - 네이버 */
 
