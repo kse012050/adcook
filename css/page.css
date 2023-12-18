@@ -77,12 +77,18 @@
 
 /* 메인 페이지 - 함계하는 브랜드 */
 .mainPage .brandArea{text-align: center; overflow: hidden;}
-.mainPage .brandArea ul{margin-top: 200px; gap: 30px; --width: 330px; display: flex; width: rem(17px / 2);}
+.mainPage .brandArea ul{margin-top: 200px; --gap: 30px; --width: 330px; gap: var(--gap); display: flex; flex-wrap: wrap; width: calc(var(--idxTotal) / 2 * var(--width) + (var(--idxTotal) / 2 * var(--gap)));}
 .mainPage .brandArea ul li{flex-shrink: 0; width: 330px; aspect-ratio: 330 / 130; border-radius: 70px; box-shadow: 10px 20px 40px 0px rgba(0, 0, 0, 0.10); background: url(../images/logo-business.png) no-repeat center top calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) / 100%;}
-.mainPage .brandArea ul li:first-child{position: relative; animation: brandAni 10s -1s linear;}
+.mainPage .brandArea ul li:nth-child(-n + 14){position: relative; animation: brandAni 30s calc(-30s / 14 * var(--styleIdx)) linear infinite; left: calc(100% - (var(--width) + var(--gap)) * var(--styleIdx));}
+.mainPage .brandArea ul li:nth-child(n + 15){position: relative; animation: brandAniTest 30s calc(-30s / 14 * (var(--styleIdx) - 14)) linear infinite; left: calc((var(--width) + var(--gap)) * (var(--styleIdx) + 1) * -1);}
 @keyframes brandAni {
-    0%{left: 100%;}
-    100%{left: calc(var(--width) * -1);}
+    0%{left: calc(100% - (var(--width) + var(--gap)) * var(--styleIdx));}
+    100%{left: calc((var(--width) + var(--gap)) * (var(--styleIdx) + 1) * -1);}
+}
+
+@keyframes brandAniTest {
+    0%{left: calc((var(--width) + var(--gap)) * ((var(--styleIdx) - 14) + 1) * -1);}
+    100%{left: calc(100% - (var(--width) + var(--gap)) * (var(--styleIdx) - 14));}
 }
 
 
