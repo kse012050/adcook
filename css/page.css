@@ -146,9 +146,9 @@
 
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
-.marketingPage h2{padding-block: 200px 40px; background-color: var(--color-yellow02);}
-.marketingPage .subMenu{gap: 40px; display: flex; position: sticky; top: var(--headerHeight); background-color: var(--color-yellow02);}
-.marketingPage .subMenu a{font-size: 20px; line-height: 60px; font-weight: 700;}
+.marketingPage h2{padding-top: 200px; background-color: var(--color-yellow02);}
+.marketingPage .subMenu{display: flex; position: sticky; top: var(--headerHeight); background-color: var(--color-yellow02);}
+.marketingPage .subMenu a{font-weight: 700;}
 .marketingPage .subMenu a:is(.active, :hover){position: relative;}
 .marketingPage .subMenu a:is(.active, :hover)::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 4px; background-color: var(--color-font01);}
 .marketingPage ul li:not(:last-child){margin-bottom: 120px;}

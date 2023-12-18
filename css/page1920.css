@@ -70,6 +70,9 @@
 
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
+.marketingPage h2{padding-bottom: 40px;}
+.marketingPage .subMenu{gap: 40px;}
+.marketingPage .subMenu a{font-size: 20px; line-height: 64px;}
 
 /* 마케팅 페이지 - 네이버 */
 
