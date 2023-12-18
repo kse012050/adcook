@@ -8,9 +8,30 @@
     --color-green: #16884C;
     --color-yellow01: #FCCA2D;
     --color-yellow02: #FFE287;
-    --contentSize: 1080px;
-    --contentSpacing: 32px;
     --headerHeight: 120px;
+}
+
+@media screen and (1240px < width){
+    :root{
+        --contentSize: 1080px;
+        --contentSpacing: 0px;
+    }
+}
+
+@media screen and (1024px < width) and (width <= 1240px) {
+    :root{
+        --contentSize: 960px;
+    }
+}
+@media screen and (768px < width) and (width <= 1024px) {
+    :root{
+        --contentSize: 704px;
+    }
+}
+@media screen and (width <= 768px) {
+    :root{
+        --contentSize: 320px;
+    }
 }
 
 @media screen and (1024px <= width) {
@@ -19,7 +40,19 @@
     }
 }
 
-@media screen and (width < 1024px) {
+@media screen and (768px < width) and (width <= 1240px) {
+    :root{
+        --contentSpacing: 32px;
+    }
+}
+
+@media screen and (width <= 768px) {
+    :root{
+        --contentSpacing: 20px;
+    }
+}
+
+@media screen and (width <= 1024px) {
     :root{
         --headerHeight: 58px;
     }

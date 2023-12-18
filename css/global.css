@@ -9,7 +9,7 @@ svg{fill: none;}
 
 
 /* 컨텐츠 사이즈 */
-.contentSize{max-width: var(--contentSize); padding-inline: var(--contentSpacing); margin-inline: auto;}
+.contentSize{max-width: var(--contentSize); padding-inline: var(--contentSpacing); margin-inline: auto; box-sizing: border-box;}
 .contentSize-padding{padding-inline: max(calc((100vw - var(--contentSize) - var(--scrollWidth)) / 2), var(--contentSpacing)); box-sizing: border-box;}
 
 

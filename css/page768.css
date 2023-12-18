@@ -21,15 +21,16 @@
 .mainPage .brandArea ul{margin-top: 100px;}
 
 
-
 /* 회사소개 페이지 */
 /* 회사소개 페이지 - 상단 */
+.aboutUsPage .adcookFull ul{height: 302px;}
 
-/* 회사소개 페이지  - 테스트 */
+/* 회사소개 페이지  - 텍스트 */
 
 /* 회사소개 페이지  - 브랜드별 분석 */
 
 /* 회사소개 페이지 - 비지니스 파트너스 */
+.aboutUsPage .businessArea ul{max-width: 650px;}
 
 /* 회사소개 페이지 - Location 오시는 길 */
 

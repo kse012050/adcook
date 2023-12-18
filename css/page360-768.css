@@ -31,14 +31,30 @@
 
 /* 회사소개 페이지 */
 /* 회사소개 페이지 - 상단 */
+.aboutUsPage .adcookFull > p{font-size: 24px; line-height: 29px; margin-bottom: 8px;}
+.aboutUsPage .adcookFull h2{font-size: 50px; line-height: 60px;}
 
-/* 회사소개 페이지  - 테스트 */
+/* 회사소개 페이지  - 텍스트 */
+.aboutUsPage .textScroll > div p{font-size: 20px; line-height: 30px;}
 
 /* 회사소개 페이지  - 브랜드별 분석 */
+.aboutUsPage .analyzeFull li::before{width: 200px; margin-bottom: 30px;}
+.aboutUsPage .analyzeFull li strong{font-size: 20px; line-height: 24px; margin-bottom: 15px;}
+.aboutUsPage .analyzeFull li p{font-size: 13px; line-height: 17px;}
 
 /* 회사소개 페이지 - 비지니스 파트너스 */
+.aboutUsPage .businessArea ul{margin-top: 50px; gap: 10px;}
+.aboutUsPage .businessArea ul li{width: 100px;}
 
 /* 회사소개 페이지 - Location 오시는 길 */
+.aboutUsPage .locationFull div > p{font-size: 15px; line-height: 18px;}
+.aboutUsPage .locationFull div strong{font-size: 18px; line-height: 21px; margin-top: 60px;}
+.aboutUsPage .locationFull div ul{margin-top: 15px;}
+.aboutUsPage .locationFull div ul li{padding-left: 21px;}
+.aboutUsPage .locationFull div ul li::before{width: 16px;}
+.aboutUsPage .locationFull div ul li:not(:last-child){margin-bottom: 15px;}
+.aboutUsPage .locationFull div ul li > *:first-child{font-size: 13px; line-height: 16px;}
+.aboutUsPage .locationFull div ul li small{font-size: 12px; line-height: 14px;}  
 
 
 /* 마케팅 페이지 */

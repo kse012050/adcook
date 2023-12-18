@@ -38,13 +38,16 @@ br.mobile{display: none;}
 /* 회사소개 페이지 */
 /* 회사소개 페이지 - 상단 */
 
-/* 회사소개 페이지  - 테스트 */
+/* 회사소개 페이지  - 텍스트 */
 
 /* 회사소개 페이지  - 브랜드별 분석 */
+.aboutUsPage .analyzeFull{display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: -1;}
 
 /* 회사소개 페이지 - 비지니스 파트너스 */
 
 /* 회사소개 페이지 - Location 오시는 길 */
+.aboutUsPage .locationFull{display: flex;}
+.aboutUsPage .locationFull iframe{right: 0; top: 0; width: 50%; height: 100%;}
 
 
 /* 마케팅 페이지 */

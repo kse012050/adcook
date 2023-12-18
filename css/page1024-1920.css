@@ -1,3 +1,5 @@
+br.tablet{display: none;}
+
 /* 메인 페이지 */
 /* 메인 페이지 - 메인 슬라이더 */
 .mainPage .mainSlide{height: 740px;}
@@ -25,8 +27,12 @@
 /* 회사소개 페이지  - 브랜드별 분석 */
 
 /* 회사소개 페이지 - 비지니스 파트너스 */
+.aboutUsPage .businessArea ul{margin-top: 80px; gap: 20px;}
+.aboutUsPage .businessArea ul li{width: 200px;}
 
 /* 회사소개 페이지 - Location 오시는 길 */
+.aboutUsPage .locationFull div strong{margin-top: 200px;}
+.aboutUsPage .locationFull div ul{margin-top: 30px;}
 
 
 /* 마케팅 페이지 */

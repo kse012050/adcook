@@ -4,7 +4,7 @@
 .mainPage .mainSlide .swiper-pagination{bottom: 30px;}
 
 /* 메인 페이지 - 애드쿡의 현장 마케팅 */
-.mainPage .siteArea ul li::before{content: ''; display: block; margin-bottom: 20px;}
+.mainPage .siteArea ul li::before{content: ''; max-width: 320px; display: block; margin-bottom: 20px;}
 .mainPage .siteArea ul li:not(:last-child){margin-bottom: 60px;}
 
 /* 메인 페이지 - 마케팅 성공 사례 */
@@ -22,13 +22,17 @@
 .mainPage .brandArea ul{max-width: 320px; margin-top: 50px; --gap: 10px; --width: 100px; margin-inline: auto;}
 
 
-
 /* 회사소개 페이지 */
 /* 회사소개 페이지 - 상단 */
+.aboutUsPage .adcookFull ul{height: 330px;}
 
-/* 회사소개 페이지  - 테스트 */
+/* 회사소개 페이지  - 텍스트 */
 
 /* 회사소개 페이지  - 브랜드별 분석 */
+.aboutUsPage .analyzeFull{height: auto; padding-block: 80px;}
+.aboutUsPage .analyzeFull li::before{margin-inline: auto;}
+.aboutUsPage .analyzeFull li:not(:last-child){margin-bottom: 60px;}
+.aboutUsPage .locationFull iframe{left: 0; bottom: 0; width: 100%; min-height: 274px; max-height: 400px; aspect-ratio: 360 / 274;}
 
 /* 회사소개 페이지 - 비지니스 파트너스 */
 

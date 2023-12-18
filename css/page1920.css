@@ -36,14 +36,36 @@
 
 /* 회사소개 페이지 */
 /* 회사소개 페이지 - 상단 */
+.aboutUsPage .adcookFull > p{font-size: 44px; line-height: 53px; margin-top: 90px;}
+.aboutUsPage .adcookFull h2{font-size: 80px; line-height: 95px;}
+.aboutUsPage .adcookFull ul{margin-top: 80px; height: 464px;}
+.aboutUsPage .adcookFull ul li:nth-child(1){left: 40px; top: 47px;}
+.aboutUsPage .adcookFull ul li:nth-child(2){right: 40px; bottom: 50px;}
+.aboutUsPage .adcookFull ul li p{border-radius: 20px;}
+.aboutUsPage .adcookFull ul li:nth-child(1) p{font-size: 30px; line-height: 36px; padding: 50px 80px 50px 50px;}
+.aboutUsPage .adcookFull ul li:nth-child(2) p{font-size: 40px; line-height: 48px; padding: 50px 60px;}
+.aboutUsPage .adcookFull ul li svg:first-of-type{width: 122px; right: 40px;}
+.aboutUsPage .adcookFull ul li svg:nth-of-type(2){width: 46px;}
 
-/* 회사소개 페이지  - 테스트 */
+/* 회사소개 페이지  - 텍스트 */
+.aboutUsPage .textScroll > div p{font-size: 40px; line-height: 60px;}
 
 /* 회사소개 페이지  - 브랜드별 분석 */
+.aboutUsPage .analyzeFull li::before{width: 320px; margin-bottom: 60px;}
+.aboutUsPage .analyzeFull li strong{font-size: 34px; line-height: 41px; margin-bottom: 20px;}
+.aboutUsPage .analyzeFull li p{font-size: 24px; line-height: 29px;}
 
 /* 회사소개 페이지 - 비지니스 파트너스 */
 
 /* 회사소개 페이지 - Location 오시는 길 */
+.aboutUsPage .locationFull{align-items: center;}
+.aboutUsPage .locationFull div > p{font-size: 22px; line-height: 26px;}
+.aboutUsPage .locationFull div strong{font-size: 24px; line-height: 29px; margin-top: 200px;}
+.aboutUsPage .locationFull div ul li{padding-left: 30px;}
+.aboutUsPage .locationFull div ul li::before{width: 24px;}
+.aboutUsPage .locationFull div ul li:not(:last-child){margin-bottom: 20px;}
+.aboutUsPage .locationFull div ul li > *:first-child{font-size: 20px; line-height: 24px;}
+.aboutUsPage .locationFull div ul li small{font-size: 18px; line-height: 21px;}
 
 
 /* 마케팅 페이지 */
