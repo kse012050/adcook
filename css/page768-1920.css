@@ -65,5 +65,6 @@ br.mobile{display: none;}
 
 /* 문의 페이지 공통 */
 /* 문의 페이지 */
+.inquiryPage fieldset ul{display: flex; flex-wrap: wrap;}
 
 /* 문의 완료 페이지 */

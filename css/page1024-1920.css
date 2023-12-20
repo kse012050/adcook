@@ -50,6 +50,16 @@ br.tablet{display: none;}
 
 
 /* 문의 페이지 공통 */
+.inquiryPage .btn-red{margin-top: 60px;}
 /* 문의 페이지 */
+.inquiryPage{padding-top: 200px;}
+.inquiryPage fieldset{font-size: 15px; line-height: 18px; margin-top: 80px;}
+.inquiryPage fieldset ul{gap: 60px 80px;}
+.inquiryPage fieldset ul li:not(.full){width: calc((100% - 80px) / 2);}
+.inquiryPage fieldset ul li > div{align-items: center;}
+.inquiryPage fieldset ul li > div input:not([type="checkbox"]){height: 54px;}
+.inquiryPage fieldset ul li > div div{flex: 1; gap: 20px;}
+.inquiryPage fieldset ul li > div div label{margin-left: auto;}
+.inquiryPage fieldset > label{margin-top: 60px;}
 
 /* 문의 완료 페이지 */

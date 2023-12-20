@@ -80,6 +80,13 @@
 
 
 /* 문의 페이지 공통 */
+.inquiryPage .btn-red{margin-top: 40px;}
 /* 문의 페이지 */
+.inquiryPage{padding-block: calc(var(--headerHeight) + 80px) 80px;}
+.inquiryPage fieldset{font-size: 13px; line-height: 16px; margin-top: 60px;}
+.inquiryPage fieldset ul li > div:has(div){flex-wrap: wrap; row-gap: 20px; padding-top: 10px;}
+.inquiryPage fieldset ul li > div div{width: 100%; gap: 15px;}
+.inquiryPage fieldset ul li > div input:not([type="checkbox"]){height: 50px;}
+.inquiryPage fieldset > label{margin-top: 30px;}
 
 /* 문의 완료 페이지 */

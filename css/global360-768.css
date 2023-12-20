@@ -7,6 +7,10 @@
 .subTitle02{font-size: 28px; line-height: 33px;}
 
 
+/* 버튼 케이스 */
+.btn-red{font-size: 15px; line-height: 18px; height: 50px; width: 100%; max-width: 320px;}
+
+
 body:has(header > div nav.active){overflow: hidden;}
 
 /* 해더 */

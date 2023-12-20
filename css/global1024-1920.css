@@ -1,3 +1,7 @@
+/* 버튼 케이스 */
+.btn-red{padding: 18px 80px; font-size: 18px; line-height: 21px;}
+
+
 /* 해더 */
 header > div{padding-inline: 40px;}
 header > div h1{width: 177px;}

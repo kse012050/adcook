@@ -50,5 +50,8 @@
 
 /* 문의 페이지 공통 */
 /* 문의 페이지 */
+.inquiryPage fieldset ul{gap: 30px;}
+.inquiryPage fieldset ul li:not(.full){width: calc((100% - 30px) / 2);}
+.inquiryPage fieldset ul li > div:has(div){column-gap: 30px;}
 
 /* 문의 완료 페이지 */

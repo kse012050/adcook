@@ -1,6 +1,9 @@
+/* 체크박스 */
+input[type="checkbox"] + label::before{margin-right: 5px;}
+
+
 /* 해더 */
 header > div nav ul{width: 240px;}
-
 
 
 /* 푸터 */

@@ -54,5 +54,11 @@
 
 /* 문의 페이지 공통 */
 /* 문의 페이지 */
+.inquiryPage fieldset ul li:not(:last-child){margin-bottom: 30px;}
+.inquiryPage fieldset ul li > div:has(div){}
+.inquiryPage fieldset ul li > div:has(div) > label:nth-of-type(2n + 1){width: 31.25%;}
+.inquiryPage fieldset ul li > div:has(div) > label:nth-of-type(2n){width: 68.75%;}
+.inquiryPage fieldset ul li > div div{flex-wrap: wrap;}
+.inquiryPage fieldset ul li > div :is(input:not([type="checkbox"]), textarea){width: 100%; flex: none;}
 
 /* 문의 완료 페이지 */

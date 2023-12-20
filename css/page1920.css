@@ -93,5 +93,7 @@
 
 /* 문의 페이지 공통 */
 /* 문의 페이지 */
+.inquiryPage{padding-bottom: 160px;}
+.inquiryPage fieldset ul li > div{gap: 40px;}
 
 /* 문의 완료 페이지 */
