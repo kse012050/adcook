@@ -14,11 +14,11 @@ header > div button{display: none;}
 
 
 /* 푸터 */
-footer{padding-block: 60px 100px; text-align: center; background-color: black;}
-footer strong{font-size: 18px; line-height: 21px; margin-bottom: 30px; font-weight: 700; color: white; display: block;}
+footer{padding-block: 60px 100px;}
+footer strong{font-size: 18px; line-height: 21px; margin-bottom: 30px;}
 footer address{max-width: 630px; row-gap: 10px; display: flex; justify-content: center; flex-wrap: wrap; margin-inline: auto;}
-footer address dl{font-size: 15px; line-height: 18px; font-weight: 400; color: white; display: flex; align-items: center;}
+footer address dl{font-size: 15px; line-height: 18px;}
 footer address dl:is(:nth-child(1), :nth-child(3), :nth-child(4), :nth-child(6)){padding-right: 10px; margin-right: 10px; position: relative;}
 footer address dl:is(:nth-child(1), :nth-child(3), :nth-child(4), :nth-child(6)):after{content: ''; position: absolute; right: 0; top: 50%; transform: translate(0%, -50%); width: 1px; height: 14px; background-color: rgba(255, 255, 255, 0.3);}
 footer address dl dt::after{content: ':'; padding-inline: 0.4em;}
-footer p{font-size: 13px; line-height: 16px; margin-top: 40px; font-weight: 400; color: var(--color-font03);}
+footer p{font-size: 13px; line-height: 16px; margin-top: 40px;}
