@@ -43,8 +43,8 @@ input[type="checkbox"]:checked + label::before{--styleIdx: 1;}
 
 
 /* 카카오 버튼 */
-.kakao{font-size: 18px; right: 30px; bottom: 30px; padding: 5px 28px 5px 10px; border-radius: 30px; font-weight: 700; color: var(--color-font01); background-color: #FFEB00; position: fixed; display: flex; align-items: center; box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15); z-index: 10;}
-.kakao svg{width: 50px; aspect-ratio: 1; margin-right: 5px;}
+.kakao{border-radius: 30px; font-weight: 700; color: var(--color-font01); background-color: #FFEB00; position: fixed; display: flex; align-items: center; box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15); z-index: 10;}
+.kakao svg{width: 50px; aspect-ratio: 1;}
 
 
 /* 해더 */

@@ -1,2 +1,6 @@
 /* 체크박스 */
 input[type="checkbox"] + label::before{margin-right: 10px;}
+
+
+/* 카카오 버튼 */
+.kakao{right: 30px; bottom: 30px;}

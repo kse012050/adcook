@@ -2,6 +2,11 @@
 .btn-red{padding: 18px 80px; font-size: 18px; line-height: 21px;}
 
 
+/* 카카오 버튼 */
+.kakao{font-size: 18px; padding: 5px 28px 5px 10px;}
+.kakao svg{margin-right: 5px;}
+
+
 /* 해더 */
 header > div{padding-inline: 40px;}
 header > div h1{width: 177px;}

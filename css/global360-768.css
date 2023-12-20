@@ -11,6 +11,10 @@
 .btn-red{font-size: 15px; line-height: 18px; height: 50px; width: 100%; max-width: 320px;}
 
 
+/* 카카오 버튼 */
+.kakao{text-indent: -9999px; padding: 5px;}
+
+
 body:has(header > div nav.active){overflow: hidden;}
 
 /* 해더 */
