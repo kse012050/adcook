@@ -97,3 +97,4 @@
 .inquiryPage fieldset ul li > div{gap: 40px;}
 
 /* 문의 완료 페이지 */
+.inquiryPage > p{font-size: 20px; line-height: 24px; margin-block: 40px 160px;}

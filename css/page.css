@@ -194,12 +194,11 @@
 .inquiryPage fieldset > label{padding-top: 20px; border-top: 1px solid var(--color-font01);}
 
 /* 문의 완료 페이지 */
-.inquiryPage > p{font-size: 20px; line-height: 24px; font-weight: 400; color: var(--color-font01); margin-block: 40px 160px;}
-.inquiryPage > b{font-size: 18px; line-height: 21px; font-weight: 700;}
-.inquiryPage dl:first-of-type{margin-top: 30px; border-top: 1px solid var(--color-font01);}
-.inquiryPage dl{font-size: 15px; display: flex;}
-.inquiryPage dl > *{min-height: 78px; display: flex; align-items: center; box-sizing: border-box; border-bottom-width: 1px; border-bottom-style: solid;}
-.inquiryPage dl dt{width: 200px; font-weight: 700; color: var(--color-font01); flex-shrink: 0; border-bottom-color: var(--color-font01);}
-.inquiryPage dl dd{flex: 1; font-weight: 400; color: var(--color-font02); padding-block: 20px; border-bottom-color: #F1F1F1;}
-.inquiryPage dl dd p{line-height: 18px;}
+.inquiryPage > p{font-weight: 400; color: var(--color-font01);}
+.inquiryPage > b{font-weight: 700;}
+.inquiryPage dl:first-of-type{border-top: 1px solid var(--color-font01);}
+.inquiryPage dl{display: flex;}
+.inquiryPage dl > *{display: flex; align-items: center; box-sizing: border-box; border-bottom-width: 1px; border-bottom-style: solid;}
+.inquiryPage dl dt{font-weight: 700; color: var(--color-font01); flex-shrink: 0; border-bottom-color: var(--color-font01);}
+.inquiryPage dl dd{flex: 1; font-weight: 400; color: var(--color-font02); padding-block: 20px; padding-left: 20px; border-bottom-color: #F1F1F1;}
 .inquiryPage a.btn-red{max-width: 242px;}

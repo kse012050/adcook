@@ -55,3 +55,4 @@
 .inquiryPage fieldset ul li > div:has(div){column-gap: 30px;}
 
 /* 문의 완료 페이지 */
+.inquiryPage dl dt{width: 150px;}

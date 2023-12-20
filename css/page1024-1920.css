@@ -63,3 +63,9 @@ br.tablet{display: none;}
 .inquiryPage fieldset > label{margin-top: 60px;}
 
 /* 문의 완료 페이지 */
+.inquiryPage > b{font-size: 18px; line-height: 21px;}
+.inquiryPage dl:first-of-type{margin-top: 30px;}
+.inquiryPage dl{font-size: 15px;}
+.inquiryPage dl > *{min-height: 78px;}
+.inquiryPage dl dt{width: 200px;}
+.inquiryPage dl dd p{line-height: 18px;}
