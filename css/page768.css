@@ -8,6 +8,20 @@
 .mainPage .siteArea ul li div{width: 45.834%;}
 
 /* 메인 페이지 - 마케팅 성공 사례 */
+.mainPage .successFull ul li:nth-child(1){width: 130px; left: -105px; top: -130px;}
+.mainPage .successFull ul li:nth-child(2){width: 130px; left: 40px; top: -160px;}
+.mainPage .successFull ul li:nth-child(3){width: 160px; left: -120px; top: -25px;}
+.mainPage .successFull ul li:nth-child(4){width: 190px; left: -10px; top: 40px;}
+.mainPage .successFull ul li:nth-child(5){width: 200px; left: 115px; top: 10px;}
+.mainPage .successFull ul li:nth-child(6){width: 160px; left: 0; top: 45px;}
+.mainPage .successFull ul li:nth-child(7){width: 100px; left: 0; top: 0;}
+.mainPage .successFull.active ul li:nth-child(1){left: -247px; top: -100px;}
+.mainPage .successFull.active ul li:nth-child(2){left: 315px; top: -140px;}
+.mainPage .successFull.active ul li:nth-child(3){left: -319px; top: 220px;}
+.mainPage .successFull.active ul li:nth-child(4){left: -50px; top: 310px;}
+.mainPage .successFull.active ul li:nth-child(5){left: 280px; top: 200px;}
+.mainPage .successFull.active ul li:nth-child(6){left: 0; top: -190px;}
+.mainPage .successFull.active ul li:nth-child(7){left: 70px; top: 230px;}
 
 /* 메인 페이지 - 마케팅 서비스 안내 */
 .mainPage .serviceScroll > div{padding-top: 60px;}
