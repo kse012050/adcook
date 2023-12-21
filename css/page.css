@@ -95,12 +95,11 @@
 .aboutUsPage .adcookFull ul li:nth-child(2) p{color: white; background-color: var(--color-red);}
 .aboutUsPage .adcookFull ul li p b{font-weight: 700;}
 .aboutUsPage .adcookFull ul li mark{position: absolute; top: 0%; transform: translateY(calc(-100% - 10px)); font-family: 'Nanum Pen Script';}
-.aboutUsPage .adcookFull ul li:nth-child(1) mark{left: 20px; font-size: 32px; line-height: 37px; color: var(--color-red);}
-.aboutUsPage .adcookFull ul li:nth-child(2) mark{left: 90px; font-size: 36px; line-height: 41px;}
+.aboutUsPage .adcookFull ul li:nth-child(1) mark{color: var(--color-red);}
 .aboutUsPage .adcookFull ul li:nth-child(2) mark span{position: relative;}
 .aboutUsPage .adcookFull ul li:nth-child(2) mark span::before{content: ''; width: 6px; aspect-ratio: 1; position: absolute; left: 50%; top: 0; transform: translate(-50% , -100%); background-color: var(--color-red); border-radius: 100%;}
 .aboutUsPage .adcookFull ul li svg:first-of-type{position: absolute; top: 0; aspect-ratio: 1; transform: translateY(-50%); }
-.aboutUsPage .adcookFull ul li svg:nth-of-type(2){position: absolute; aspect-ratio: 46 / 50; left: 50%; bottom: -30px; transform: translateX(-50%);}
+.aboutUsPage .adcookFull ul li svg:nth-of-type(2){position: absolute; aspect-ratio: 46 / 50; left: 50%; transform: translateX(-50%);}
 
 /* 회사소개 페이지  - 텍스트 */
 .aboutUsPage .textScroll{height: 300vh; background-color: black; position: sticky; top: calc(-300vh + var(--fullHeight)); z-index: -2; transition: background-color 0.5s cubic-bezier(0.25, 0.47, 0.12, 0.99);}

@@ -21,6 +21,7 @@ br.tablet{display: none;}
 
 /* 회사소개 페이지 */
 /* 회사소개 페이지 - 상단 */
+.aboutUsPage .adcookFull ul li svg:nth-of-type(2){bottom: -30px;}
 
 /* 회사소개 페이지  - 테스트 */
 

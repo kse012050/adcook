@@ -24,6 +24,14 @@
 /* 회사소개 페이지 */
 /* 회사소개 페이지 - 상단 */
 .aboutUsPage .adcookFull ul{height: 302px;}
+.aboutUsPage .adcookFull ul li:nth-child(1){left: 26px; top: 31px;}
+.aboutUsPage .adcookFull ul li:nth-child(2){right: 26px; bottom: 32px;}
+.aboutUsPage .adcookFull ul li:nth-child(1) p{font-size: 20px; line-height: 24px; padding: 32px 46px 31px 32px;}
+.aboutUsPage .adcookFull ul li:nth-child(2) p{font-size: 26px; line-height: 31px; padding: 32px 62px 33px 39px;}
+.aboutUsPage .adcookFull ul li svg:first-of-type{width: 74px; right: 21px;}
+.aboutUsPage .adcookFull ul li svg:nth-of-type(2){width: 23px; bottom: -17px;}
+.aboutUsPage .adcookFull ul li:nth-child(1) mark{left: 13px; font-size: 21px; line-height: 24px;}
+.aboutUsPage .adcookFull ul li:nth-child(2) mark{left: 58px; font-size: 24px; line-height: 28px;}
 
 /* 회사소개 페이지  - 텍스트 */
 

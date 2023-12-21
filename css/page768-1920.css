@@ -37,6 +37,7 @@ br.mobile{display: none;}
 
 /* 회사소개 페이지 */
 /* 회사소개 페이지 - 상단 */
+.aboutUsPage .adcookFull ul li p{border-radius: 20px;}
 
 /* 회사소개 페이지  - 텍스트 */
 
