@@ -83,6 +83,9 @@ function mainPage(){
         pagination: {
             el: ".swiper-pagination",
         },
+        autoplay: {
+            delay: 3000,
+        },
     });
 
     $(window).scroll(function(){

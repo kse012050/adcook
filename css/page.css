@@ -26,12 +26,6 @@
 .mainPage .successFull ul li:nth-child(5){z-index: 3;}
 .mainPage .successFull ul li:nth-child(6){z-index: 1; opacity: 0.2; filter: blur(10px);}
 .mainPage .successFull ul li:nth-child(7){z-index: 0; opacity: 0.2; filter: blur(10px);}
-/* .mainPage .successFull.active ul li:nth-child(1){left: -515px; top: -135px;}
-.mainPage .successFull.active ul li:nth-child(2){left: 625px; top: -150px;}
-.mainPage .successFull.active ul li:nth-child(3){left: -630px; top: 275px;}
-.mainPage .successFull.active ul li:nth-child(4){left: -125px; top: 470px;}
-.mainPage .successFull.active ul li:nth-child(5){left: 555px; top: 280px;}
-.mainPage .successFull.active ul li:nth-child(6){left: 0; top: -200px;} */
 
 /* 메인 페이지 - 마케팅 서비스 안내 */
 .mainPage .serviceScroll{height: 300vh; --color: white; color: var(--color); position: relative; transition: background-color 1s cubic-bezier(0.25, 0.47, 0.12, 0.99);}
@@ -69,20 +63,6 @@
 .mainPage .brandArea{text-align: center; overflow: hidden;}
 .mainPage .brandArea ul{display: flex; flex-wrap: wrap; gap: var(--gap);}
 .mainPage .brandArea ul li{width: var(--width); aspect-ratio: 330 / 130; background: url(../images/logo-business.png) no-repeat center top calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) / 100%;}
-/* 
-.mainPage .brandArea ul{margin-top: 200px; --gap: 30px; --width: 330px; gap: var(--gap); display: flex; flex-wrap: wrap; width: calc(var(--idxTotal) / 2 * var(--width) + (var(--idxTotal) / 2 * var(--gap)));}
-.mainPage .brandArea ul li{flex-shrink: 0; width: 330px; aspect-ratio: 330 / 130; border-radius: 70px; box-shadow: 10px 20px 40px 0px rgba(0, 0, 0, 0.10); background: url(../images/logo-business.png) no-repeat center top calc(100% / (var(--idxTotal) - 1) * var(--styleIdx)) / 100%;}
-.mainPage .brandArea ul li:nth-child(-n + 14){position: relative; animation: brandAni 30s calc(-30s / 14 * var(--styleIdx)) linear infinite; left: calc(100% - (var(--width) + var(--gap)) * var(--styleIdx));}
-.mainPage .brandArea ul li:nth-child(n + 15){position: relative; animation: brandAniTest 30s calc(-30s / 14 * (var(--styleIdx) - 14)) linear infinite; left: calc((var(--width) + var(--gap)) * (var(--styleIdx) + 1) * -1);}
-@keyframes brandAni {
-    0%{left: calc(100% - (var(--width) + var(--gap)) * var(--styleIdx));}
-    100%{left: calc((var(--width) + var(--gap)) * (var(--styleIdx) + 1) * -1);}
-}
-
-@keyframes brandAniTest {
-    0%{left: calc((var(--width) + var(--gap)) * ((var(--styleIdx) - 14) + 1) * -1);}
-    100%{left: calc(100% - (var(--width) + var(--gap)) * (var(--styleIdx) - 14));}
-} */
 
 
 /* 회사소개 페이지 */
