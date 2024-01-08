@@ -93,9 +93,11 @@ function mainPage(){
             $('.serviceScroll ul li').each(function(i){
                 if(($('.serviceScroll').height() - $(window).height()) / $('.serviceScroll ul li').length * i < $('.serviceScroll')[0].getBoundingClientRect().y * -1){
                     $(this).addClass('active')
+                    $('.serviceScroll').addClass(`active${i}`)
                     $('.serviceScroll > div ol li').eq(i).addClass('active');
                 }else{
                     $(this).removeClass('active')
+                    $('.serviceScroll').removeClass(`active${i}`)
                     $('.serviceScroll > div ol li').eq(i).removeClass('active');
                 }
             })
@@ -115,11 +117,14 @@ function aboutUs(){
     })
     $(window).scroll(function(){
         if($('.textScroll')[0].getBoundingClientRect().y <= 0 && $(window).height() - $('.textScroll').height() < $('.textScroll')[0].getBoundingClientRect().y){
+            console.log($('.textScroll > div > *'));
             $('.textScroll > div > *').each(function(i){
                 if(($('.textScroll').height() - $(window).height()) / $('.textScroll > div > *').length * i < $('.textScroll')[0].getBoundingClientRect().y * -1){
                     $(this).addClass('active')
+                    $('.textScroll').addClass(`active${i}`)
                 }else{
                     $(this).removeClass('active')
+                    $('.textScroll').removeClass(`active${i}`)
                 }
             })
         }
