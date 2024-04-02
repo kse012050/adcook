@@ -86,18 +86,3 @@
 
 /* 문의 완료 페이지 */
 .inquiryPage dl dt{width: 90px;}
-
-
-
-/* 2024-04-02 추가 */
-/* 메인 뉴스 */
-.mainPage .newsFull ul{max-width: fit-content; overflow: auto; transform: translateX(calc(var(--contentSpacing) * -1)); width: calc(100% + (var(--contentSpacing))); padding-inline: var(--contentSpacing); /* box-sizing: border-box; */}
-.mainPage .newsFull ul li{min-width: 220px;}
-.mainPage .newsFull ul li:first-child{padding-left: var(--contentSpacing);}
-.mainPage .newsFull > a{width: 100%; max-width: 320px; line-height: 48px; margin-top: 60px;}
-
-/* 뉴스 페이지 */
-.newsPage .newsBox li{width: 100%; margin-right: 0;}
-
-.newsDetailPage strong{margin-bottom: 12px;}
-.newsDetailPage .editor{padding-block: 40px 60px;}

@@ -78,11 +78,3 @@
 
 /* 문의 완료 페이지 */
 .inquiryPage dl dt{width: 150px;}
-
-
-
-/* 2024-04-02 추가 */
-/* 메인 뉴스 */
-.mainPage .newsFull > a{line-height: 42px; margin-top: 40px;}
-
-.newsDetailPage strong{margin-bottom: 7px;}

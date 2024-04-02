@@ -70,18 +70,3 @@ br.tablet{display: none;}
 .inquiryPage dl > *{min-height: 78px;}
 .inquiryPage dl dt{width: 200px;}
 .inquiryPage dl dd p{line-height: 18px;}
-
-
-/* 2024-04-02 추가 */
-/* 메인 뉴스 */
-ul.newsBox li a img{margin-bottom: 30px;}
-
-
-/* 뉴스 페이지 */
-.newsPage, .newsDetailPage{padding-top: 200px;}
-.newsPage h2{margin-bottom: 80px;}
-.newsPage .newsBox li:not(:nth-last-child(-n + 3)){margin-bottom: 60px;}
-
-.pagerBox{margin-top: 60px;}
-
-.newsDetailPage > a{display: block; max-width: fit-content; margin-top: 60px;}

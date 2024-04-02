@@ -113,19 +113,3 @@
 
 /* 문의 완료 페이지 */
 .inquiryPage > p{font-size: 20px; line-height: 24px; margin-block: 40px 160px;}
-
-
-/* 2024-04-02 추가 */
-ul.newsBox li a strong{font-size: 24px; line-height: 30px; margin-bottom: 8px;}
-ul.newsBox li a time{font-size: 20px; line-height: 24px;}
-/* 메인 뉴스 */
-.mainPage .newsFull h2{margin-bottom: 110px;}
-.mainPage .newsFull > a{font-size: 18px; width: 220px; line-height: 48px; margin-top: 80px;}
-
-
-/* 뉴스 페이지 */
-.newsPage, .newsDetailPage{padding-bottom: 160px;}
-
-.newsDetailPage strong{font-size: 32px; margin-bottom: 15px;}
-.newsDetailPage time{font-size: 22px; line-height: 28px;}
-.newsDetailPage .editor{margin-top: 40px; padding-block: 60px 80px;}

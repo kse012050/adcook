@@ -7,7 +7,6 @@
 
 /* 메인 페이지 - 마케팅 서비스 안내 */
 .mainPage .serviceScroll ul li > div{justify-content: space-between;}
-
 /* 메인 페이지 - 마케팅 서비스 안내 - 애니메이션 */
 
 /* 메인 페이지 - 함계하는 브랜드 */
@@ -45,3 +44,7 @@
 /* 문의 페이지 */
 
 /* 문의 완료 페이지 */
+
+
+/* 뉴스 페이지 */
+.newsDetailPage .editor{padding-block: 60px;}

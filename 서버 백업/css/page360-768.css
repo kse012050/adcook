@@ -97,24 +97,3 @@
 .inquiryPage dl > *{min-height: 56px;}
 .inquiryPage dl dd p{line-height: 16px;}
 
-
-/* 2024-04-02 추가 */
-ul.newsBox li a img{margin-bottom: 20px;}
-ul.newsBox li a strong{font-size: 16px; line-height: 22px; margin-bottom: 5px;}
-ul.newsBox li a time{font-size: 13px; line-height: 18px;}
-/* 메인 뉴스 */
-.mainPage .newsFull h2{margin-bottom: 60px;}
-.mainPage .newsFull > a{font-size: 13px;}
-
-
-/* 뉴스 페이지 */
-.newsPage, .newsDetailPage{padding-block: calc(var(--headerHeight) + 80px) 80px;}
-.newsPage h2{margin-bottom: 60px;}
-.newsPage .newsBox li:not(:nth-last-child(-n + 3)){margin-bottom: 40px;}
-
-.pagerBox{margin-top: 40px;}
-
-.newsDetailPage strong{font-size: 18px; line-height: 24px;}
-.newsDetailPage time{font-size: 13px; line-height: 18px;}
-
-.newsDetailPage > a{display: flex; justify-content: center; align-items: center; margin-top: 40px;}

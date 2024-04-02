@@ -69,10 +69,3 @@ br.mobile{display: none;}
 .inquiryPage fieldset ul{display: flex; flex-wrap: wrap;}
 
 /* 문의 완료 페이지 */
-
-
-/* 2024-04-02 추가 */
-/* 메인 뉴스 */
-.mainPage .newsFull > a{width: 160px;}
-
-.newsDetailPage strong{padding-top: 20px;}

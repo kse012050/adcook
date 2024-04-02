@@ -64,8 +64,9 @@ function commonStyle(){
 // 스타일 인덱스
 function styleIdx(){
     $('[data-styleIdx]').each(function(){
-        $(this).css('--idxTotal', $(this).children().length)
-        $(this).children().each(function(i){
+        const childrenSelect = $(this).attr('data-styleIdx') ? $(this).children($(this).attr('data-styleIdx')) : $(this).children();
+        $(this).css('--idxTotal', childrenSelect.length)
+        childrenSelect.each(function(i){
             $(this).css('--styleIdx', i)
         })
     })
