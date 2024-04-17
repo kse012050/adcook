@@ -112,7 +112,7 @@ ul.newsBox li a time{font-size: 13px; line-height: 18px;}
 .newsPage, .newsDetailPage{padding-bottom: 80px;}
 .newsPage .newsBox{padding-top: 80px;}
 .newsDetailPage{padding-top: calc(var(--headerHeight) + 80px);}
-.newsPage .newsBox li:not(:nth-last-child(-n + 3)){margin-bottom: 40px;}
+.newsPage .newsBox li:not(:last-child){margin-bottom: 40px;}
 
 .pagerBox{margin-top: 40px;}
 

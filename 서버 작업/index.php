@@ -561,6 +561,10 @@ $total_count= $data["total_count"];
                         <li>
                             <a href="news-detail?id=<?=$item["board_id"]?>">
                                 <img src="<?=$item["main_image"]?>" alt="이미지">
+                                <!-- 회사소식 -->
+                                <!-- <mark class="color-red">회사소식</mark> -->
+                                <!-- 성공사례 -->
+                                <!-- <mark class="color-green">성공사례</mark> -->
                                 <strong><?=$item["subject"]?></strong>
                                 <time><?=str_replace("-",".",$item["reg_date"])?></time>
                             </a>

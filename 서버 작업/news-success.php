@@ -29,9 +29,9 @@ $total_count= $data["total_count"];
         <h2 class="contentSize-padding subTitle02">애드쿡 소식</h2>
 
         <div class="subMenu contentSize-padding">
-            <a href="news.html" class="active">전체</a>
+            <a href="news.html">전체</a>
             <a href="news-aboutUs.html">회사소식</a>
-            <a href="news-success.html">성공사례</a>
+            <a href="news-success.html" class="active">성공사례</a>
         </div>
 
         <ul class="newsBox contentSize">
@@ -42,10 +42,8 @@ $total_count= $data["total_count"];
                 <li>
                     <a href="news-detail?id=<?=$item["board_id"]?>">
                         <img  src="<?=$item["main_image"]?>" alt="이미지">
-                        <!-- 회사소식 -->
-                        <!-- <mark class="color-red">회사소식</mark> -->
                         <!-- 성공사례 -->
-                        <!-- <mark class="color-green">성공사례</mark> -->
+                        <mark class="color-green">성공사례</mark>
                         <strong><?=$item["subject"]?></strong>
                         <time><?=str_replace("-",".",$item["reg_date"])?></time>
                     </a>
