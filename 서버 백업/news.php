@@ -8,7 +8,7 @@ $thisfilename = basename(__FILE__, ".php");
 <?php include "header.php"; ?>
 <?
 $page           = 1;
-$limit          = 3;
+$limit          = 20;
 $search         = "";
 
 if (checkArrayVal("page", $_REQUEST)) $page  = $_REQUEST["page"];

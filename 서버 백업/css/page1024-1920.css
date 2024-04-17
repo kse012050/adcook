@@ -1,0 +1,87 @@
+br.tablet{display: none;}
+
+/* 메인 페이지 */
+/* 메인 페이지 - 메인 슬라이더 */
+.mainPage .mainSlide{height: 740px;}
+.mainPage .mainSlide .swiper-wrapper [class*="slide"] mark{margin-bottom: 30px;}
+.mainPage .mainSlide .swiper-wrapper [class*="slide"] p svg{transform: translateY(-10px);}
+.mainPage .mainSlide .swiper-pagination{bottom: 60px;}
+.mainPage .mainSlide .swiper-pagination .swiper-pagination-bullet{width: 14px; height: 14px; margin-inline: 10px;}
+
+/* 메인 페이지 - 애드쿡의 현장 마케팅 */
+
+/* 메인 페이지 - 마케팅 성공 사례 */
+
+/* 메인 페이지 - 마케팅 서비스 안내 */
+
+/* 메인 페이지 - 마케팅 서비스 안내 - 애니메이션 */
+
+/* 메인 페이지 - 함계하는 브랜드 */
+
+
+/* 회사소개 페이지 */
+/* 회사소개 페이지 - 상단 */
+.aboutUsPage .adcookFull ul li svg:nth-of-type(2){bottom: -30px;}
+
+/* 회사소개 페이지  - 테스트 */
+
+/* 회사소개 페이지  - 브랜드별 분석 */
+
+/* 회사소개 페이지 - 비지니스 파트너스 */
+.aboutUsPage .businessArea ul{margin-top: 80px; gap: 20px;}
+.aboutUsPage .businessArea ul li{width: 200px;}
+
+/* 회사소개 페이지 - Location 오시는 길 */
+.aboutUsPage .locationFull div strong{margin-top: 200px;}
+.aboutUsPage .locationFull div ul{margin-top: 30px;}
+
+
+/* 마케팅 페이지 */
+/* 마케팅 페이지 공통 */
+.marketingPage h2{padding-top: 200px;}
+.marketingPage ul li:not(:last-child){margin-bottom: 120px;}
+
+/* 마케팅 페이지 - 네이버 */
+
+/* 마케팅 페이지 - 인스타그램 */
+
+/* 마케팅 페이지 - 체험단 */
+
+/* 마케팅 페이지 - 체험단 */
+
+
+/* 문의 페이지 공통 */
+.inquiryPage .btn-red{margin-top: 60px;}
+/* 문의 페이지 */
+.inquiryPage{padding-top: 200px;}
+.inquiryPage fieldset{font-size: 15px; line-height: 18px; margin-top: 80px;}
+.inquiryPage fieldset ul{gap: 60px 80px;}
+.inquiryPage fieldset ul li:not(.full){width: calc((100% - 80px) / 2);}
+.inquiryPage fieldset ul li > div{align-items: center;}
+.inquiryPage fieldset ul li > div input:not([type="checkbox"]){height: 54px;}
+.inquiryPage fieldset ul li > div div{flex: 1; gap: 20px;}
+.inquiryPage fieldset ul li > div div label{margin-left: auto;}
+.inquiryPage fieldset > label{margin-top: 60px;}
+
+/* 문의 완료 페이지 */
+.inquiryPage > b{font-size: 18px; line-height: 21px;}
+.inquiryPage dl:first-of-type{margin-top: 30px;}
+.inquiryPage dl{font-size: 15px;}
+.inquiryPage dl > *{min-height: 78px;}
+.inquiryPage dl dt{width: 200px;}
+.inquiryPage dl dd p{line-height: 18px;}
+
+
+/* 2024-04-02 추가 */
+/* 메인 뉴스 */
+ul.newsBox li a img{margin-bottom: 30px;}
+
+
+/* 뉴스 페이지 */
+.newsPage, .newsDetailPage{padding-top: 200px;}
+.newsPage h2{margin-bottom: 80px;}
+.newsPage .newsBox li:not(:nth-last-child(-n + 3)){margin-bottom: 60px;}
+
+.pagerBox{margin-top: 60px;}
+
+.newsDetailPage > a{display: block; max-width: fit-content; margin-top: 60px;}

@@ -235,7 +235,7 @@ ul.newsBox li a time{color: var(--color-font03);}
 .pagerBox > ol + a + a{--styleIdx: 3;}
 .pagerBox ol{margin-inline: 10px; display: flex; justify-content: center; align-items: center;}
 .pagerBox ol li a{width: 30px; font-weight: 400; text-align: center; display: block;}
-.pagerBox ol li a.active{text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 2px; color: var(--color-red); font-weight: 700;}
+.pagerBox ol :is(li.active a, li a.active){text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 2px; color: var(--color-red); font-weight: 700;}
 
 .newsDetailPage strong{font-weight: 700; display: block;}
 .newsDetailPage time{font-weight: 400; color: var(--color-font03);}

@@ -216,7 +216,7 @@ ul.newsBox{display: flex;}
 ul.newsBox li{width: 31.5%;}
 ul.newsBox li:not(:nth-child(3n)){margin-right: 2.75%;}
 ul.newsBox li a{display: block;}
-ul.newsBox li a img{width: 100%;}
+ul.newsBox li a img{width: 100%; aspect-ratio: 340 / 240; object-fit: cover;}
 ul.newsBox li a strong{font-weight: 700; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 ul.newsBox li a time{color: var(--color-font03);}
 .mainPage .newsFull{background-color: #F8F8F8; display: flex; flex-direction: column; justify-content: center; align-items: center;}
@@ -227,11 +227,15 @@ ul.newsBox li a time{color: var(--color-font03);}
 /* 뉴스 페이지 */
 .newsPage .newsBox{flex-wrap: wrap;}
 
-.pagerBox{display: flex; justify-content: center; align-items: center;}
+.pagerBox{display: flex; justify-content: center; align-items: center; --idxTotal: 4;}
 .pagerBox > a{width: 32px; aspect-ratio: 1; background: url(../images/icon-pagination.png) no-repeat left top calc(100% / (var(--idxTotal) - 1) * (var(--styleIdx))) / 100%; text-indent: -9999px;}
+.pagerBox > a:nth-child(1){--styleIdx: 0;}
+.pagerBox > a:nth-child(1) + a{--styleIdx: 1;}
+.pagerBox > ol + a{--styleIdx: 2;}
+.pagerBox > ol + a + a{--styleIdx: 3;}
 .pagerBox ol{margin-inline: 10px; display: flex; justify-content: center; align-items: center;}
 .pagerBox ol li a{width: 30px; font-weight: 400; text-align: center; display: block;}
-.pagerBox ol li a.active{text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 2px; color: var(--color-red); font-weight: 700;}
+.pagerBox ol :is(li.active a, li a.active){text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 2px; color: var(--color-red); font-weight: 700;}
 
 .newsDetailPage strong{font-weight: 700; display: block;}
 .newsDetailPage time{font-weight: 400; color: var(--color-font03);}

@@ -1,0 +1,42 @@
+/* 컨텐츠 위 / 아래 공통 */
+[class*="Area"]{padding-block: 80px;}
+
+
+/* 서브 타이틀 */
+.subTitle01{font-size: 36px; line-height: 43px;}
+.subTitle02{font-size: 28px; line-height: 33px;}
+
+
+/* 버튼 케이스 */
+.btn-red{font-size: 15px; line-height: 18px; height: 50px; width: 100%; max-width: 320px;}
+
+
+/* 카카오 버튼 */
+.kakao{text-indent: -9999px; padding: 5px;}
+
+
+body:has(header > div nav.active){overflow: hidden;}
+
+/* 해더 */
+header > div{padding-inline: 5px 10px; height: var(--headerHeight); justify-content: space-between;}
+header > div h1{width: 108px;}
+header > div > *:not(h1){line-height: 24px;}
+header > div nav{display: none; position: fixed; right: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);}
+header > div nav.active{display: block;}
+header > div nav ul{padding-block: 150px; height: 100%; margin-left: auto; color: white; background-color: var(--color-red);}
+header > div nav ul li:not(:last-child){margin-bottom: 30px;}
+header > div nav ul li a{padding-inline: 30px;}
+header > div nav ul li a svg{stroke: white;}
+header > div button{width: 44px; aspect-ratio: 1; background: url(../images/icon-menu.png) no-repeat center top calc(100% * var(--styleIdx)) / 100%; text-indent: -9999px;}
+header > div nav button{--styleIdx: 1; position: absolute; right: 5px; top: 7px;}
+header > div > button{--styleIdx: 0;}
+
+
+
+/* 푸터 */
+footer{padding-block: 50px 110px;}
+footer strong{font-size: 16px; line-height: 19px; margin-bottom: 40px;}
+footer address dl{font-size: 13px; line-height: 16px; justify-content: center;}
+footer address dl:not(:last-child, :nth-child(4)){margin-bottom: 7px;}
+footer address dl:nth-child(4){margin-bottom: 30px;}
+footer p{font-size: 12px; line-height: 14px; margin-top: 30px;}
