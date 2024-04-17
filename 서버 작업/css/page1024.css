@@ -125,5 +125,6 @@ ul.newsBox li a time{font-size: 16px; line-height: 20px;}
 .newsPage, .newsDetailPage{padding-bottom: 120px;}
 .newsPage .newsBox{padding-top: 120px;}
 
+.newsDetailPage > mark{font-size: 16px; line-height: 20px;}
 .newsDetailPage strong{font-size: 26px; margin-bottom: 10px; line-height: 32px;}
 .newsDetailPage time{font-size: 16px; line-height: 20px;}

@@ -83,4 +83,6 @@ ul.newsBox li a img{margin-bottom: 30px;}
 
 .pagerBox{margin-top: 60px;}
 
+.newsDetailPage strong{padding-top: 20px;}
 .newsDetailPage > a{display: block; max-width: fit-content; margin-top: 60px;}
+

@@ -99,5 +99,5 @@
 /* 뉴스 페이지 */
 .newsPage .newsBox li{width: 100%; margin-right: 0;}
 
-.newsDetailPage strong{margin-bottom: 12px;}
+.newsDetailPage strong{margin-bottom: 12px; padding-top: 15px;}
 .newsDetailPage .editor{padding-block: 40px 60px;}

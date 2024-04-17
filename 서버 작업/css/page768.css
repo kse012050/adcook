@@ -85,4 +85,4 @@
 /* 메인 뉴스 */
 .mainPage .newsFull > a{line-height: 42px; margin-top: 40px;}
 
-.newsDetailPage strong{margin-bottom: 7px;}
+.newsDetailPage strong{margin-bottom: 7px; padding-top: 10px;}

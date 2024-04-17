@@ -116,6 +116,7 @@ ul.newsBox li a time{font-size: 13px; line-height: 18px;}
 
 .pagerBox{margin-top: 40px;}
 
+.newsDetailPage > mark{font-size: 13px; line-height: 18px;}
 .newsDetailPage strong{font-size: 18px; line-height: 24px;}
 .newsDetailPage time{font-size: 13px; line-height: 18px;}
 

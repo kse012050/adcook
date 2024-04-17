@@ -76,5 +76,3 @@ br.mobile{display: none;}
 .mainPage .newsFull > a{width: 160px;}
 ul.newsBox li:not(:nth-child(3n)){margin-right: 2.75%;}
 ul.newsBox li{width: 31.5%;}
-
-.newsDetailPage strong{padding-top: 20px;}

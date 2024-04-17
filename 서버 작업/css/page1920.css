@@ -128,6 +128,8 @@ ul.newsBox li a time{font-size: 20px; line-height: 24px;}
 .newsPage, .newsDetailPage{padding-bottom: 160px;}
 .newsPage .newsBox{padding-top: 160px;}
 
+.newsDetailPage > mark{font-size: 20px; line-height: 28px;}
 .newsDetailPage strong{font-size: 32px; margin-bottom: 15px;}
-.newsDetailPage time{font-size: 22px; line-height: 28px;}
+.newsDetailPage time{font-size: 20px; line-height: 28px;}
+.newsDetailPage .editor{padding-block: 60px; margin-top: 40px;}
 
