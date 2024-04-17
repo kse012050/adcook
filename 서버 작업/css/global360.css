@@ -1,0 +1,14 @@
+/* 체크박스 */
+input[type="checkbox"] + label::before{margin-right: 5px;}
+
+
+/* 카카오 버튼 */
+.kakao{right: 20px; bottom: 20px;}
+
+
+
+/* 해더 */
+header > div nav ul{width: 240px;}
+
+
+/* 푸터 */

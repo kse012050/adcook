@@ -1,0 +1,29 @@
+/* 버튼 케이스 */
+.btn-red{padding: 18px 80px; font-size: 18px; line-height: 21px;}
+
+
+/* 카카오 버튼 */
+.kakao{font-size: 18px; padding: 5px 28px 5px 10px;}
+.kakao svg{margin-right: 5px;}
+
+
+/* 해더 */
+header > div{padding-inline: 40px;}
+header > div h1{width: 177px;}
+header > div h1 a img{width: 100%;}
+header > div > *:not(h1){line-height: var(--headerHeight);}
+header > div nav{margin-left: auto;}
+header > div nav ul{display: flex; align-items: center; gap: 60px;}
+header > div nav ul li a svg{stroke: black;}
+header > div button{display: none;}
+
+
+/* 푸터 */
+footer{padding-block: 60px 100px;}
+footer strong{font-size: 18px; line-height: 21px; margin-bottom: 30px;}
+footer address{max-width: 630px; row-gap: 10px; display: flex; justify-content: center; flex-wrap: wrap; margin-inline: auto;}
+footer address dl{font-size: 15px; line-height: 18px;}
+footer address dl:is(:nth-child(1), :nth-child(2), :nth-child(4)){padding-right: 10px; margin-right: 10px; position: relative;}
+footer address dl:is(:nth-child(1), :nth-child(2), :nth-child(4)):after{content: ''; position: absolute; right: 0; top: 50%; transform: translate(0%, -50%); width: 1px; height: 14px; background-color: rgba(255, 255, 255, 0.3);}
+footer address dl dt::after{content: ':'; padding-inline: 0.4em;}
+footer p{font-size: 13px; line-height: 16px; margin-top: 40px;}

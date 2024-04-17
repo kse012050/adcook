@@ -1,0 +1,60 @@
+:root{
+    --color-font01: #000000;
+    --color-font02: #666666;
+    --color-font03: #999999;
+    --color-font04: #BBBBBB;
+    --color-font05: #FFB7A6;
+    --color-red: #F66C4B;
+    --color-green: #16884C;
+    --color-yellow01: #FCCA2D;
+    --color-yellow02: #FFE287;
+    --headerHeight: 120px;
+}
+
+@media screen and (1240px < width){
+    :root{
+        --contentSize: 1080px;
+        --contentSpacing: 0px;
+    }
+}
+
+@media screen and (1024px < width) and (width <= 1240px) {
+    :root{
+        --contentSize: 960px;
+    }
+}
+@media screen and (768px < width) and (width <= 1024px) {
+    :root{
+        --contentSize: 704px;
+    }
+}
+@media screen and (width <= 768px) {
+    :root{
+        --contentSize: 320px;
+    }
+}
+
+@media screen and (1024px <= width) {
+    :root{
+        --headerHeight: 120px;
+    }
+}
+
+@media screen and (768px < width) and (width <= 1240px) {
+    :root{
+        --contentSpacing: 32px;
+    }
+}
+
+@media screen and (width <= 768px) {
+    :root{
+        --contentSpacing: 20px;
+    }
+}
+
+@media screen and (width <= 1024px) {
+    :root{
+        --headerHeight: 58px;
+    }
+    
+}

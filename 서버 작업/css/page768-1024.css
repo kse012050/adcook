@@ -2,36 +2,35 @@
 /* 메인 페이지 - 메인 슬라이더 */
 
 /* 메인 페이지 - 애드쿡의 현장 마케팅 */
-.mainPage .siteArea ul li div strong{margin-bottom: 20px;}
 
 /* 메인 페이지 - 마케팅 성공 사례 */
 
 /* 메인 페이지 - 마케팅 서비스 안내 */
-.mainPage .serviceScroll > div ol{gap: 15px;}
+.mainPage .serviceScroll ul li > div{justify-content: space-between;}
 
 /* 메인 페이지 - 마케팅 서비스 안내 - 애니메이션 */
 
 /* 메인 페이지 - 함계하는 브랜드 */
+.mainPage .brandArea ul{--gap: 20px; --width: 178px;}
 
 
 
 /* 회사소개 페이지 */
 /* 회사소개 페이지 - 상단 */
-.aboutUsPage .adcookFull ul{margin-top: 40px;}
 
 /* 회사소개 페이지  - 텍스트 */
 
 /* 회사소개 페이지  - 브랜드별 분석 */
 
 /* 회사소개 페이지 - 비지니스 파트너스 */
+.aboutUsPage .businessArea ul{margin-inline: auto;}
 
 /* 회사소개 페이지 - Location 오시는 길 */
 
 
 /* 마케팅 페이지 */
 /* 마케팅 페이지 공통 */
-:is(.marketingPage, .newsPage) .subMenu{gap: 30px;}
-.marketingPage ul li > div{margin-top: 30px;}
+.marketingPage ul li > div::before{width: 50%;}
 
 /* 마케팅 페이지 - 네이버 */
 
@@ -49,6 +48,4 @@
 
 
 /* 뉴스 페이지 */
-ul.newsBox li a mark{margin-bottom: 7px;}
-
-.newsDetailPage .editor{margin-top: 30px;}
+.newsDetailPage .editor{padding-block: 60px;}
